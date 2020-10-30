@@ -59,7 +59,7 @@ function get_pages_children_information(data) {
             let sorted_text_blocks  = BLOCK_OPS.get_sorted_blocks(element['text_blocks'])
 
             sorted_text_blocks.forEach(text_block => {
-                page['translated_texts'].push(...text_block['tokenized_sentences']);
+                page['translated_texts'].push(...text_block['tokenized_sentences'].map(v => ({...v, block_identifier: text_block.block_identifier})));
 
                 text_block.children.forEach(grandchildren => {
                     if (grandchildren['children']) {
