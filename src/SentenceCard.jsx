@@ -259,7 +259,7 @@ class SentenceCard extends React.Component {
                                 inputRef={this.textInput}
                                 onFocus={event => {
                                     console.log(event.target.name, this.props.sentence.src)
-                                    this.props.highlightBlock(event.target.name, this.props.sentence.src)
+                                    this.props.highlightBlock(this.props.sentence)
                                 }}
                             />
                     )}/>

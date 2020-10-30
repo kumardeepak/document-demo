@@ -1,11 +1,10 @@
 export const HIGHLIGHT_BLOCK    = 'HIGHLIGHT_BLOCK'
 export const HIGHLIGHT_SENTENCE = 'HIGHLIGHT_SENTENCE'
 
-export function highlightBlock(sentence_id, sentence) {
+export function highlightBlock(sentence) {
     return {     
         type: HIGHLIGHT_BLOCK,
         payload: {
-            sentence_id: sentence_id,
             sentence: sentence
         }
     }
