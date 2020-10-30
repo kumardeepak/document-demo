@@ -114,7 +114,11 @@ import Autocomplete, { createFilterOptions } from '@material-ui/lab/Autocomplete
 class SentenceCard extends React.Component {
     constructor(props) {
         super(props);
-        this.state                      = {value: '', showSuggestions: false};
+        this.state                      = {
+                                            value: '', 
+                                            showSuggestions: false,
+                                            suggestions: []
+                                        };
         this.handleUserInputText        = this.handleUserInputText.bind(this);
         this.processFormSubmitPressed   = this.processFormSubmitPressed.bind(this);
     }
@@ -193,9 +197,10 @@ class SentenceCard extends React.Component {
             <form  onSubmit={this.processFormSubmitPressed} name={this.props.sentence.s_id}>
                 <div>
                     <Autocomplete
-                        options={top100Films}
-                        value={this.state.value}
-                        
+                        getOptionSelected={(option, value) => option.name === value.name}
+                        getOptionLabel={(option) => option.name}
+                        options={this.state.suggestions}
+                        inputValue={this.state.value}
                         fullWidth
                         open={this.state.showSuggestions}
                         loading={true}
@@ -203,12 +208,15 @@ class SentenceCard extends React.Component {
                         onChange={(event, newValue) => {
                             console.log('onChange of autocomplete is fired')
                             this.setState({
+                                value: event.target.value,
                                 showSuggestions: false
                             });
                             // filterOptions(event, newValue);
                         }}
                         onClose={(event, newValue) => {
-                            
+                            this.setState({
+                                showSuggestions: false
+                            });
                         }}
                         renderInput={params => (
                             <TextField {...params} label="Enter translated sentence"
@@ -221,6 +229,9 @@ class SentenceCard extends React.Component {
                                 multiline
                                 variant="outlined" 
                                 onKeyDown={this.handleKeyDown}
+                                onFocus={event => {
+                                    console.log(event.target.name)
+                                }}
                             />
                     )}/>
                 </div>
