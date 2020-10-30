@@ -252,7 +252,8 @@ class SentenceCard extends React.Component {
                                 variant="outlined" 
                                 onKeyDown={this.handleKeyDown}
                                 inputRef={this.textInput}
-                                
+                                onFocus={event => {                        console.log(event.target.name)
+                                }}
                             />
                     )}/>
                 </div>
