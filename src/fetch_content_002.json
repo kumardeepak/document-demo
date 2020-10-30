@@ -1,0 +1,3125 @@
+{
+    "count": 24,
+    "data": [
+      {
+        "images": [
+          {
+            "attrib": "IMAGE",
+            "base64": "iVBORw0KGgoAAAANSUhEUgAAA5YAAASkCAIAAACXfAIBAAAZrElEQVR4AezBAQ0AAAjAIO0f+uZwA7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgGsPDmgAAEAABmn/0DeHG/DHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8McB8vzjfL8NFscAAAAASUVORK5CYII=",
+            "block_identifier": "73886809-3d6d-4574-a6f6-9bb6e3f36892",
+            "image_id": 0,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text_height": 1188,
+            "text_left": 0,
+            "text_top": 0,
+            "text_width": 918
+          }
+        ],
+        "page_height": 1188,
+        "page_no": 1,
+        "page_width": 918,
+        "text_blocks": [
+          {
+            "attrib": null,
+            "avg_line_height": 17,
+            "block_id": "88d738039e26430ba5ce827252aeb1b1",
+            "block_identifier": "efd31411-595a-40de-b331-4cf14904d3fd",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 17,
+                "block_id": "88d738039e26430ba5ce827252aeb1b1",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "Calibri",
+                "font_size": 16,
+                "text": "Page  1  of  24",
+                "text_height": 17,
+                "text_left": 418,
+                "text_top": 1097,
+                "text_width": 82
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "Calibri",
+            "font_size": 16,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": "Page  1  of  24",
+            "text_height": 17,
+            "text_left": 418,
+            "text_top": 1097,
+            "text_width": 82,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|88d738039e26430ba5ce827252aeb1b1",
+                "s0_src": "Page 1 of 24",
+                "s0_tgt": "24 का पृष्ठ 1",
+                "s_id": "cc43427f-fea7-41a0-b0cc-e4e214f45b9c",
+                "save": false,
+                "src": "Page 1 of 24",
+                "tagged_src": "Page NnUuMm१ of NnUuMm०",
+                "tagged_tgt": "NnUuMm० का पृष्ठ NnUuMm१",
+                "tgt": "24 का पृष्ठ 1"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "1364e5a402754db79fdf894c9f0f2c77",
+            "block_identifier": "68b8bf91-fbb2-495f-af82-d86ef594debf",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 16,
+                "block_id": "1364e5a402754db79fdf894c9f0f2c77",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPS",
+                "font_size": 18,
+                "text": "THE GAZETTE OF INDIA ",
+                "text_height": 16,
+                "text_left": 351,
+                "text_top": 100,
+                "text_width": 221
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPS",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": "THE GAZETTE OF INDIA ",
+            "text_height": 16,
+            "text_left": 351,
+            "text_top": 100,
+            "text_width": 221,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|1364e5a402754db79fdf894c9f0f2c77",
+                "s0_src": "THE GAZETTE OF INDIA",
+                "s0_tgt": "भारत का राजपत्र",
+                "s_id": "7a8cbafe-d92f-4ba6-b42b-a80e1627fd03",
+                "save": true,
+                "src": "THE GAZETTE OF INDIA",
+                "tagged_src": "THE GAZETTE OF INDIA",
+                "tagged_tgt": "भारत का राजपत्र",
+                "tgt": "भारत का राजपत्र"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "1ff31c53a04f4acd913a30615dcb7c6e",
+            "block_identifier": "d45e5cb7-15a0-424c-918f-82bcc518eefa",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 16,
+                "block_id": "1ff31c53a04f4acd913a30615dcb7c6e",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPS",
+                "font_size": 18,
+                "text": "EXTRAORDINARY ",
+                "text_height": 16,
+                "text_left": 378,
+                "text_top": 124,
+                "text_width": 167
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPS",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": "EXTRAORDINARY ",
+            "text_height": 16,
+            "text_left": 378,
+            "text_top": 124,
+            "text_width": 167,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|1ff31c53a04f4acd913a30615dcb7c6e",
+                "s0_src": "EXTRAORDINARY",
+                "s0_tgt": "",
+                "s_id": "28cb2710-4a4e-4e98-b4f5-5810cd49c809",
+                "save": true,
+                "src": "EXTRAORDINARY",
+                "tagged_src": "EXTRAORDINARY",
+                "tagged_tgt": "",
+                "tgt": "222036 नवंबर, 26092020 को आयोजित किया"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "10709d9672724b33ab8557d6f9e082ca",
+            "block_identifier": "54fb7824-6042-4fa4-b69b-c4ab60bdc30b",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 16,
+                "block_id": "10709d9672724b33ab8557d6f9e082ca",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPS",
+                "font_size": 18,
+                "text": "PART – III – SECTION 4 ",
+                "text_height": 16,
+                "text_left": 359,
+                "text_top": 148,
+                "text_width": 205
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPS",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": "PART – III – SECTION 4 ",
+            "text_height": 16,
+            "text_left": 359,
+            "text_top": 148,
+            "text_width": 205,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|10709d9672724b33ab8557d6f9e082ca",
+                "s0_src": "PART – III – SECTION 4",
+                "s0_tgt": "भाग--खंड 4",
+                "s_id": "7dbd5067-34cb-4e13-a398-2b7ba064d415",
+                "save": true,
+                "src": "PART – III – SECTION 4",
+                "tagged_src": "PART – III – SECTION NnUuMm०",
+                "tagged_tgt": "भाग-NnUuMm२-खंड NnUuMm०",
+                "tgt": "भाग--खंड 4"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "b7b636a8aa15423b82336632cfb1d4dc",
+            "block_identifier": "0c8555ce-a311-4b31-a986-2651f07cca39",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 16,
+                "block_id": "b7b636a8aa15423b82336632cfb1d4dc",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPS",
+                "font_size": 18,
+                "text": "PUBLISHED BY AUTHORITY ",
+                "text_height": 16,
+                "text_left": 335,
+                "text_top": 172,
+                "text_width": 254
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPS",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": "PUBLISHED BY AUTHORITY ",
+            "text_height": 16,
+            "text_left": 335,
+            "text_top": 172,
+            "text_width": 254,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|b7b636a8aa15423b82336632cfb1d4dc",
+                "s0_src": "PUBLISHED BY AUTHORITY",
+                "s0_tgt": "प्राधिकरण द्वारा प्रकाशित किया गया",
+                "s_id": "72005325-9d00-4701-af4d-588eda59ce47",
+                "save": true,
+                "src": "PUBLISHED BY AUTHORITY",
+                "tagged_src": "PUBLISHED BY AUTHORITY",
+                "tagged_tgt": "प्राधिकरण द्वारा प्रकाशित किया गया",
+                "tgt": "प्राधिकरण द्वारा प्रकाशित किया गया"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "e39881cae62a42ecbced57cf08f370a2",
+            "block_identifier": "7e8fcc55-f95c-4d66-8a71-bcac383ec48d",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 16,
+                "block_id": "e39881cae62a42ecbced57cf08f370a2",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPS",
+                "font_size": 18,
+                "text": "NEW DELHI, SEPTEMBER 01, 2014 ",
+                "text_height": 16,
+                "text_left": 313,
+                "text_top": 196,
+                "text_width": 298
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPS",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": "NEW DELHI, SEPTEMBER 01, 2014 ",
+            "text_height": 16,
+            "text_left": 313,
+            "text_top": 196,
+            "text_width": 298,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|e39881cae62a42ecbced57cf08f370a2",
+                "s0_src": "NEW DELHI, SEPTEMBER 01, 2014",
+                "s0_tgt": "नई दिल्ली, सितंबर 01,2014",
+                "s_id": "99bb3e63-ee3a-4a47-9aa3-c66aec2b4ed9",
+                "save": true,
+                "src": "NEW DELHI, SEPTEMBER 01, 2014",
+                "tagged_src": "NEW DELHI, SEPTEMBER 0NnUuMm१, NnUuMm०",
+                "tagged_tgt": "नई दिल्ली, सितंबर 0NnUuMm१,NnUuMm०",
+                "tgt": "नई दिल्ली, सितंबर 01, 2014"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "0d3f331ecef34b12aa0eba2a23a5b3fc",
+            "block_identifier": "15ffce30-d993-45e9-930e-5ac06cd78cc0",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 16,
+                "block_id": "0d3f331ecef34b12aa0eba2a23a5b3fc",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPS",
+                "font_size": 18,
+                "text": "SECURITIES AND EXCHANGE BOARD OF INDIA ",
+                "text_height": 16,
+                "text_left": 250,
+                "text_top": 219,
+                "text_width": 422
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPS",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": "SECURITIES AND EXCHANGE BOARD OF INDIA ",
+            "text_height": 16,
+            "text_left": 250,
+            "text_top": 219,
+            "text_width": 422,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|0d3f331ecef34b12aa0eba2a23a5b3fc",
+                "s0_src": "SECURITIES AND EXCHANGE BOARD OF INDIA",
+                "s0_tgt": "भारतीय प्रतिभूति और विनिमय बोर्ड",
+                "s_id": "f10e6a77-2c35-446b-a0d1-bd077d53e0d7",
+                "save": true,
+                "src": "SECURITIES AND EXCHANGE BOARD OF INDIA",
+                "tagged_src": "SECURITIES AND EXCHANGE BOARD OF INDIA",
+                "tagged_tgt": "भारतीय प्रतिभूति और विनिमय बोर्ड",
+                "tgt": "भारतीय प्रतिभूति और विनिमय बोर्ड"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "d82e3719b6814c7c8440475bc36ef6b3",
+            "block_identifier": "073cdbd5-5e6f-478c-a506-2d5d2ed218ff",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 16,
+                "block_id": "d82e3719b6814c7c8440475bc36ef6b3",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPS",
+                "font_size": 18,
+                "text": "NOTIFICATION ",
+                "text_height": 16,
+                "text_left": 391,
+                "text_top": 243,
+                "text_width": 141
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPS",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": "NOTIFICATION ",
+            "text_height": 16,
+            "text_left": 391,
+            "text_top": 243,
+            "text_width": 141,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|d82e3719b6814c7c8440475bc36ef6b3",
+                "s0_src": "NOTIFICATION",
+                "s0_tgt": "",
+                "s_id": "4e87361e-781c-4430-851c-d2c561e4baab",
+                "save": true,
+                "src": "NOTIFICATION",
+                "tagged_src": "NOTIFICATION",
+                "tagged_tgt": "",
+                "tgt": ""
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 19,
+            "block_id": "5a37f0196af84ca48e17a6d986c5abe4",
+            "block_identifier": "4ba6a5d7-cc00-4987-93e7-156d9fa1a2a4",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 19,
+                "block_id": "5a37f0196af84ca48e17a6d986c5abe4",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPS",
+                "font_size": 18,
+                "text": "Mumbai, the 1 st  September, 2014 ",
+                "text_height": 19,
+                "text_left": 333,
+                "text_top": 264,
+                "text_width": 256
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPS",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": "Mumbai, the 1 st  September, 2014 ",
+            "text_height": 19,
+            "text_left": 333,
+            "text_top": 264,
+            "text_width": 256,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|5a37f0196af84ca48e17a6d986c5abe4",
+                "s0_src": "Mumbai, the 1 st September, 2014",
+                "s0_tgt": "मुंबई, 1 सितंबर, 2014",
+                "s_id": "5a610b50-06a0-466a-b452-260a878743c9",
+                "save": true,
+                "src": "Mumbai, the 1 st September, 2014",
+                "tagged_src": "Mumbai, the NnUuMm१ st September, NnUuMm०",
+                "tagged_tgt": "मुंबई, NnUuMm१ सितंबर, NnUuMm०",
+                "tgt": "मुंबई, 1 सितंबर, 2014"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "ab515fd251df4015805e0a894a51194c",
+            "block_identifier": "b733bd8c-a7cf-414a-b9ac-2f62f09522c8",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 16,
+                "block_id": "ab515fd251df4015805e0a894a51194c",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPS",
+                "font_size": 18,
+                "text": "SECURITIES AND EXCHANGE BOARD OF INDIA (RESEARCH ANALYSTS) ",
+                "text_height": 16,
+                "text_left": 142,
+                "text_top": 315,
+                "text_width": 639
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPS",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": "SECURITIES AND EXCHANGE BOARD OF INDIA (RESEARCH ANALYSTS) ",
+            "text_height": 16,
+            "text_left": 142,
+            "text_top": 315,
+            "text_width": 639,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|ab515fd251df4015805e0a894a51194c",
+                "s0_src": "SECURITIES AND EXCHANGE BOARD OF INDIA (RESEARCH ANALYSTS)",
+                "s0_tgt": "भारतीय प्रतिभूति और विनिमय बोर्ड",
+                "s_id": "ce53d8d9-22e1-4f62-b9d5-6fcbafd68312",
+                "save": true,
+                "src": "SECURITIES AND EXCHANGE BOARD OF INDIA (RESEARCH ANALYSTS)",
+                "tagged_src": "SECURITIES AND EXCHANGE BOARD OF INDIA (RESEARCH ANALYSTS)",
+                "tagged_tgt": "भारतीय प्रतिभूति और विनिमय बोर्ड",
+                "tgt": "भारतीय प्रतिभूति और विनिमय बोर्ड"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "06e4776389164a0c8c89afcd479f115f",
+            "block_identifier": "45087cd7-0e33-48bd-b4fa-2581e0015870",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 16,
+                "block_id": "06e4776389164a0c8c89afcd479f115f",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPS",
+                "font_size": 18,
+                "text": "REGULATIONS, 2014 ",
+                "text_height": 16,
+                "text_left": 370,
+                "text_top": 338,
+                "text_width": 182
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPS",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": "REGULATIONS, 2014 ",
+            "text_height": 16,
+            "text_left": 370,
+            "text_top": 338,
+            "text_width": 182,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|06e4776389164a0c8c89afcd479f115f",
+                "s0_src": "REGULATIONS, 2014",
+                "s0_tgt": "क्षेत्र, 2014",
+                "s_id": "d573741e-58d3-4678-9f4c-7f71338b28af",
+                "save": true,
+                "src": "REGULATIONS, 2014",
+                "tagged_src": "REGULATIONS, NnUuMm०",
+                "tagged_tgt": "क्षेत्र, NnUuMm०",
+                "tgt": "क्षेत्र, 2014"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "023a67957b0f479cb89963db9c0a1c17",
+            "block_identifier": "7b02ddf2-cef4-4000-b97d-32db0e1e31d9",
+            "children": [
+              {
+                "attrib": "",
+                "block_id": "68b65598c7324f519725c020ab8185df",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "No. LAD-NRO/GN/2014-15/07/1414.- In exercise of the powers conferred by sub-section (1) of ",
+                "text_height": 16,
+                "text_left": 108,
+                "text_top": 362,
+                "text_width": 707
+              },
+              {
+                "attrib": "",
+                "block_id": "bd24d70bcbd44d4bbf8d102a2b3694f9",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "section 30 read with  clause (b) of sub-section (2) of section 11 of the Securities and Exchange ",
+                "text_height": 16,
+                "text_left": 108,
+                "text_top": 386,
+                "text_width": 706
+              },
+              {
+                "attrib": "",
+                "block_id": "2e1778e3b12a4715a7ae22d6cae59ba7",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "Board of India Act, 1992(15 of 1992), the Securities and Exchange Board of India hereby, makes ",
+                "text_height": 16,
+                "text_left": 108,
+                "text_top": 410,
+                "text_width": 706
+              },
+              {
+                "attrib": "",
+                "block_id": "8b88609cbb7f4850aed4e02681a67aff",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "the following regulations, to put in place a framework to register and regulate research analysts, ",
+                "text_height": 16,
+                "text_left": 108,
+                "text_top": 434,
+                "text_width": 706
+              },
+              {
+                "attrib": "",
+                "block_id": "77432b5e759140b3a704331a01bb639e",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "namely;- ",
+                "text_height": 16,
+                "text_left": 108,
+                "text_top": 458,
+                "text_width": 69
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": " No. LAD-NRO/GN/2014-15/07/1414.- In exercise of the powers conferred by sub-section (1) of  section 30 read with  clause (b) of sub-section (2) of section 11 of the Securities and Exchange  Board of India Act, 1992(15 of 1992), the Securities and Exchange Board of India hereby, makes  the following regulations, to put in place a framework to register and regulate research analysts,  namely;- ",
+            "text_height": 112,
+            "text_left": 108,
+            "text_top": 362,
+            "text_width": 707,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|023a67957b0f479cb89963db9c0a1c17",
+                "s0_src": "No. LAD-NRO/GN/2014-15/07/1414.- In exercise of the powers conferred by sub-section (1) of section 30 read with clause (b) of sub-section (2) of section 11 of the Securities and Exchange Board of India Act, 1992(15 of 1992), the Securities and Exchange Board of India hereby, makes the following regulations, to put in place a framework to register and regulate research analysts, namely;-",
+                "s0_tgt": "सं. LAD-NRO/GNO/2014-15/07/1414-भारतीय प्रतिभूति और विनिमय बोर्ड अधिनियम, 1992 (1992 का 15) की धारा 11 की उप-धारा (2) के खंड (बी) के साथ पढ़ी गई धारा 30 की उप-धारा (1) द्वारा प्रदत्त शक्तियों के प्रयोग में, भारतीय प्रतिभूति और विनिमय बोर्ड, निम्नलिखित नियमों को बनाता है, अनुसंधान विश्लेषक को पंजीकृत करने और विनियमित करने के लिए एक ढांचा रखने के लिए, अर्थात्:",
+                "s_id": "305cadfa-819b-4964-994e-1a527c275788",
+                "save": true,
+                "src": "No. LAD-NRO/GN/2014-15/07/1414.- In exercise of the powers conferred by sub-section (1) of section 30 read with clause (b) of sub-section (2) of section 11 of the Securities and Exchange Board of India Act, 1992(15 of 1992), the Securities and Exchange Board of India hereby, makes the following regulations, to put in place a framework to register and regulate research analysts, namely;-",
+                "tagged_src": "No. LAD-NRO/GN/NnUuMm०-NnUuMm५/0NnUuMm८/NnUuMm३.- In exercise of the powers conferred by sub-section (NnUuMm१०) of section NnUuMm४ read with clause (b) of sub-section (NnUuMm९) of section NnUuMm७ of the Securities and Exchange Board of India Act, NnUuMm१(NnUuMm६ of NnUuMm२), the Securities and Exchange Board of India hereby, makes the following regulations, to put in place a framework to register and regulate research analysts, namely;-",
+                "tagged_tgt": "सं. LAD-NRO/GNO/NnUuMm०-NnUuMm५/0NnUuMm८/NnUuMm३-भारतीय प्रतिभूति और विनिमय बोर्ड अधिनियम, NnUuMm१ (NnUuMm२ का NnUuMm६) की धारा NnUuMm७ की उप-धारा (NnUuMm९) के खंड (बी) के साथ पढ़ी गई धारा NnUuMm४ की उप-धारा (NnUuMm१०) द्वारा प्रदत्त शक्तियों के प्रयोग में, भारतीय प्रतिभूति और विनिमय बोर्ड, निम्नलिखित नियमों को बनाता है, अनुसंधान विश्लेषक को पंजीकृत करने और विनियमित करने के लिए एक ढांचा रखने के लिए, अर्थात्:",
+                "tgt": "सं. LAD-NRO/GNO/2014-15/07/1414-भारतीय प्रतिभूति और विनिमय बोर्ड अधिनियम, 1992 (1992 का 15) की धारा 11 की उप-धारा (2) के खंड (बी) के साथ पढ़ी गई धारा 30 की उप-धारा (1) द्वारा प्रदत्त शक्तियों के प्रयोग में, भारतीय प्रतिभूति और विनिमय बोर्ड, निम्नलिखित नियमों को बनाता है, अनुसंधान विश्लेषक को पंजीकृत करने और विनियमित करने के लिए एक ढांचा रखने के लिए, अर्थात्:"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "1de6fc318a3e431db899eded21a9e898",
+            "block_identifier": "7e788382-021b-4b62-8ec8-68a57a5953f2",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 16,
+                "block_id": "1de6fc318a3e431db899eded21a9e898",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPS",
+                "font_size": 18,
+                "text": "CHAPTER I ",
+                "text_height": 16,
+                "text_left": 409,
+                "text_top": 505,
+                "text_width": 104
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPS",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": "CHAPTER I ",
+            "text_height": 16,
+            "text_left": 409,
+            "text_top": 505,
+            "text_width": 104,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|1de6fc318a3e431db899eded21a9e898",
+                "s0_src": "CHAPTER I",
+                "s0_tgt": "अध्याय I",
+                "s_id": "3a2f19fb-4329-4586-8de3-219a9179c49d",
+                "save": true,
+                "src": "CHAPTER I",
+                "tagged_src": "CHAPTER I",
+                "tagged_tgt": "अध्याय I",
+                "tgt": "अध्याय I"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "c4faced5bfc34dd7b540fa2a030f3155",
+            "block_identifier": "5451bf46-9f22-4486-8c46-1cb7206113c7",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 16,
+                "block_id": "c4faced5bfc34dd7b540fa2a030f3155",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPS",
+                "font_size": 18,
+                "text": "PRELIMINARY ",
+                "text_height": 16,
+                "text_left": 394,
+                "text_top": 529,
+                "text_width": 136
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPS",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": "PRELIMINARY ",
+            "text_height": 16,
+            "text_left": 394,
+            "text_top": 529,
+            "text_width": 136,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|c4faced5bfc34dd7b540fa2a030f3155",
+                "s0_src": "PRELIMINARY",
+                "s0_tgt": "",
+                "s_id": "06ab8ed9-9b8d-4106-b899-3f739bd30767",
+                "save": false,
+                "src": "PRELIMINARY",
+                "tagged_src": "PRELIMINARY",
+                "tagged_tgt": "",
+                "tgt": ""
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "578b6b1fe7944ddd8a2733769a3e6b04",
+            "block_identifier": "e87826a6-749b-4c40-9166-0b57c7dc3941",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 16,
+                "block_id": "578b6b1fe7944ddd8a2733769a3e6b04",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPS",
+                "font_size": 18,
+                "text": "Short title and commencement.",
+                "text_height": 16,
+                "text_left": 108,
+                "text_top": 576,
+                "text_width": 240
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPS",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": "Short title and commencement.",
+            "text_height": 16,
+            "text_left": 108,
+            "text_top": 576,
+            "text_width": 240,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|578b6b1fe7944ddd8a2733769a3e6b04",
+                "s0_src": "Short title and commencement.",
+                "s0_tgt": "संक्षिप्त नाम और प्रारम्भ।",
+                "s_id": "a53b8bdf-fd86-4df6-a703-6e56a0b80ee5",
+                "save": true,
+                "src": "Short title and commencement.",
+                "tagged_src": "Short title and commencement.",
+                "tagged_tgt": "संक्षिप्त नाम और प्रारम्भ।",
+                "tgt": "संक्षिप्त नाम और प्रारम्भ।"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "59d91746984d48ca8e70d5f9182cf647",
+            "block_identifier": "4e72c94e-40f9-4995-865e-13de2033be33",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "f9a3041e234d438997c2247db5ddb235",
+                "children": [
+                  {
+                    "attrib": "BOLD",
+                    "block_id": "556745ca0a1e4ae2a4ae40f4eda2d5e7",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPS",
+                    "font_size": 18,
+                    "text": "1.",
+                    "text_height": 16,
+                    "text_left": 108,
+                    "text_top": 600,
+                    "text_width": 14
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "6d61286f09f74783837b1d8185ef86d4",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": " (1)  These  regulations  may  be  called  the  Securities  and  Exchange  Board  of  India  (Research ",
+                    "text_height": 16,
+                    "text_left": 122,
+                    "text_top": 600,
+                    "text_width": 692
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "1.  (1)  These  regulations  may  be  called  the  Securities  and  Exchange  Board  of  India  (Research ",
+                "text_height": 16,
+                "text_left": 108,
+                "text_top": 600,
+                "text_width": 706
+              },
+              {
+                "attrib": "",
+                "block_id": "1ed452a437c84e96ab067411afcedc27",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "Analysts) Regulations, 2014. ",
+                "text_height": 16,
+                "text_left": 108,
+                "text_top": 624,
+                "text_width": 213
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": " 1.  (1)  These  regulations  may  be  called  the  Securities  and  Exchange  Board  of  India  (Research  Analysts) Regulations, 2014. ",
+            "text_height": 40,
+            "text_left": 108,
+            "text_top": 600,
+            "text_width": 706,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|59d91746984d48ca8e70d5f9182cf647",
+                "s0_src": "1. (1) These regulations may be called the Securities and Exchange Board of India (Research Analysts) Regulations, 2014.",
+                "s0_tgt": "1. (1) इन विनियमों को भारतीय प्रतिभूति और विनिमय बोर्ड (अनुसंधान विश्लेषकों) विनियम, 2014 कहा जा सकता है।",
+                "s_id": "f00a86a6-5486-4223-aba8-970d036e1d11",
+                "save": true,
+                "src": "1. (1) These regulations may be called the Securities and Exchange Board of India (Research Analysts) Regulations, 2014.",
+                "tagged_src": "1. (NnUuMm१) These regulations may be called the Securities and Exchange Board of India (Research Analysts) Regulations, NnUuMm०.",
+                "tagged_tgt": "1. (NnUuMm१) इन विनियमों को भारतीय प्रतिभूति और विनिमय बोर्ड (अनुसंधान विश्लेषकों) विनियम, NnUuMm० कहा जा सकता है",
+                "tgt": "1. (1) इन विनियमों को भारतीय प्रतिभूति और विनिमय बोर्ड (अनुसंधान विश्लेषकों) विनियम, 2014 कहा जा सकता है।"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "06767299b7234f4f97711252f3b14d58",
+            "block_identifier": "ab834723-8e35-4178-9ffd-4f5156618263",
+            "children": [
+              {
+                "attrib": "",
+                "block_id": "1cc10fd577404b919fafb7e7e74f667d",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "page_no": 1,
+                "text": "(2)   These regulations shall come into force on the ninetieth day from the date of their publication ",
+                "text_height": 16,
+                "text_left": 108,
+                "text_top": 648,
+                "text_width": 706
+              },
+              {
+                "attrib": "",
+                "block_id": "8c15f0857e0c4d68be0b8e01a68e5ee1",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "page_no": 1,
+                "text": "in the Official Gazette. ",
+                "text_height": 16,
+                "text_left": 108,
+                "text_top": 672,
+                "text_width": 169
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": " (2)   These regulations shall come into force on the ninetieth day from the date of their publication  in the Official Gazette. ",
+            "text_height": 40,
+            "text_left": 108,
+            "text_top": 648,
+            "text_width": 706,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|ab834723-8e35-4178-9ffd-4f5156618263|67ccc3f5-d7d0-40d5-a0ae-d6b03cb1bab8",
+                "s0_src": "(2) These regulations shall come into force on the ninetieth  day from the date of their publication in the Official Gazette.",
+                "s0_tgt": "(2) ये नियम आधिकारिक राजपत्र में उनके प्रकाशन की तारीख से उन्नीसवें दिन लागू होंगे।",
+                "s_id": "67ccc3f5-d7d0-40d5-a0ae-d6b03cb1bab8",
+                "save": true,
+                "src": "(2) These regulations shall come into force on the ninetieth  day from the date of their publication in the Official Gazette.",
+                "tagged_src": "(2) These regulations shall come into force on the ninetieth day from the date of their publication in the Official Gazette.",
+                "tagged_tgt": "(2) ये नियम आधिकारिक राजपत्र में उनके प्रकाशन की तारीख से उन्नीसवें दिन लागू होंगे।",
+                "tgt": "(2) ये नियम आधिकारिक राजपत्र में उनके प्रकाशन की तारीख से उन्नीसवें दिन लागू होंगे।  "
+              }
+            ]
+          },
+          {
+            "attrib": "BOLD",
+            "avg_line_height": 16,
+            "block_id": "57354af1f6434fb1a034380e7a905a1a",
+            "block_identifier": "4495ca30-1ec2-4a41-b0a6-c43a6dd53810",
+            "children": [
+              {
+                "attrib": "BOLD",
+                "avg_line_height": 16,
+                "block_id": "57354af1f6434fb1a034380e7a905a1a",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPS",
+                "font_size": 18,
+                "text": "Definitions.",
+                "text_height": 16,
+                "text_left": 108,
+                "text_top": 719,
+                "text_width": 89
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPS",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": "Definitions.",
+            "text_height": 16,
+            "text_left": 108,
+            "text_top": 719,
+            "text_width": 89,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|57354af1f6434fb1a034380e7a905a1a",
+                "s0_src": "Definitions.",
+                "s0_tgt": "परिभाषाएँ.",
+                "s_id": "db3afe9c-549b-4429-ae08-fd38e35f318a",
+                "save": true,
+                "src": "Definitions.",
+                "tagged_src": "Definitions.",
+                "tagged_tgt": "परिभाषाएँ.",
+                "tgt": "परिभाषाएँ."
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "bd2d9861bc93414591636a87c4a3a2cd",
+            "block_identifier": "a0ff7cce-bca2-4d9e-8187-013a9f31986a",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "0bb5b1a8d63b463795aa61949cbcb0af",
+                "children": [
+                  {
+                    "attrib": "BOLD",
+                    "block_id": "08c170ca12dc49368585c19924389590",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPS",
+                    "font_size": 18,
+                    "text": "2.",
+                    "text_height": 16,
+                    "text_left": 108,
+                    "text_top": 743,
+                    "text_width": 14
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "9aaadafc8c004d73a0837a8123cd72b0",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "  (1)  In these regulations, unless the context otherwise requires, the terms defined herein  shall ",
+                    "text_height": 16,
+                    "text_left": 122,
+                    "text_top": 743,
+                    "text_width": 692
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "2.   (1)  In these regulations, unless the context otherwise requires, the terms defined herein  shall ",
+                "text_height": 16,
+                "text_left": 108,
+                "text_top": 743,
+                "text_width": 706
+              },
+              {
+                "attrib": "",
+                "block_id": "9e9054420561478eb81213509f6189c0",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "bear  the  meanings  assigned  to  them  below,  and  their  cognate  expressions  shall  be  construed ",
+                "text_height": 16,
+                "text_left": 108,
+                "text_top": 767,
+                "text_width": 706
+              },
+              {
+                "attrib": "",
+                "block_id": "d6cfbeec217a480c9b54c3b6ca1b9945",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "accordingly,–   ",
+                "text_height": 16,
+                "text_left": 108,
+                "text_top": 791,
+                "text_width": 112
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": " 2.   (1)  In these regulations, unless the context otherwise requires, the terms defined herein  shall  bear  the  meanings  assigned  to  them  below,  and  their  cognate  expressions  shall  be  construed  accordingly,–   ",
+            "text_height": 64,
+            "text_left": 108,
+            "text_top": 743,
+            "text_width": 706,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|bd2d9861bc93414591636a87c4a3a2cd",
+                "s0_src": "2. (1) In these regulations, unless the context otherwise requires, the terms defined herein shall bear the meanings assigned to them below, and their cognate expressions shall be construed accordingly,–",
+                "s0_tgt": "2. (1) इन विनियमों में, जब तक कि संदर्भ से अन्यथा अपेक्षित न हो, इसमें परिभानित पदों का वही अर्थ होगा जो नीचे दिए गए हैं और उनके सजातीय पदों का तदनुसार अर्थ लगाया जाएगा:",
+                "s_id": "678219e7-c406-4263-90bd-77e84ade4072",
+                "save": true,
+                "src": "2. (1) In these regulations, unless the context otherwise requires, the terms defined herein shall bear the meanings assigned to them below, and their cognate expressions shall be construed accordingly,–",
+                "tagged_src": "2. (NnUuMm०) In these regulations, unless the context otherwise requires, the terms defined herein shall bear the meanings assigned to them below, and their cognate expressions shall be construed accordingly,–",
+                "tagged_tgt": "2. (NnUuMm०) इन विनियमों में, जब तक कि संदर्भ से अन्यथा अपेक्षित न हो, इसमें परिभानित पदों का वही अर्थ होगा जो नीचे दिए गए हैं और उनके सजातीय पदों का तदनुसार अर्थ लगाया जाएगा:",
+                "tgt": "2. (1) इन विनियमों में, जब तक कि संदर्भ से अन्यथा अपेक्षित न हो, इसमें परिभानित पदों का वही अर्थ होगा जो नीचे दिए गए हैं और उनके सजातीय पदों का तदनुसार अर्थ लगाया जाएगा:"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "bfd2727da9cb4f0fa2dcb97c540d4697",
+            "block_identifier": "f3713342-e2a4-43ed-a14e-ae5ef98c03f1",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "a93da0e27da4436b87ab118dead65dca",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "e8c192190c444be3af20980e8790662b",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(a)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 815,
+                    "text_width": 20
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "24a58ce71edc4791952ae7344ff7ee8b",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": " “Act” means the Securities and Exchange Board of India Act, 1992 (15 of 1992); ",
+                    "text_height": 16,
+                    "text_left": 193,
+                    "text_top": 815,
+                    "text_width": 594
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "page_no": 1,
+                "text": "(a)  “Act” means the Securities and Exchange Board of India Act, 1992 (15 of 1992); ",
+                "text_height": 16,
+                "text_left": 153,
+                "text_top": 815,
+                "text_width": 634
+              },
+              {
+                "attrib": null,
+                "block_id": "6545771069b047b39ab0ada834e1ddff",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "e383de97c0db497ba8d7443d392f2ecf",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(b)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 839,
+                    "text_width": 21
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "f2585579b48b491b92ec1f231bb2bb94",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "\"asset  management  company\"  means  a  company  as  defined  under  clause(d)  of ",
+                    "text_height": 16,
+                    "text_left": 193,
+                    "text_top": 839,
+                    "text_width": 621
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "page_no": 1,
+                "text": "(b) \"asset  management  company\"  means  a  company  as  defined  under  clause(d)  of ",
+                "text_height": 16,
+                "text_left": 153,
+                "text_top": 839,
+                "text_width": 661
+              },
+              {
+                "attrib": "",
+                "block_id": "227533693e474e1daea607f5f93e8b50",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "page_no": 1,
+                "text": "Regulation 2 of Securities and Exchange Board of India ( Mutual Funds) Regulations, ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 862,
+                "text_width": 621
+              },
+              {
+                "attrib": "",
+                "block_id": "ec26ab0e6892438bb084d4190c380302",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "page_no": 1,
+                "text": "1996; ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 886,
+                "text_width": 46
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": " (a)  “Act” means the Securities and Exchange Board of India Act, 1992 (15 of 1992);  (b) \"asset  management  company\"  means  a  company  as  defined  under  clause(d)  of  Regulation 2 of Securities and Exchange Board of India ( Mutual Funds) Regulations,  1996; ",
+            "text_height": 87,
+            "text_left": 153,
+            "text_top": 815,
+            "text_width": 661,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|f3713342-e2a4-43ed-a14e-ae5ef98c03f1|4316efe5-182e-4a8a-a1e8-fb21c78e5447",
+                "s0_src": "(a) “Act” means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+                "s0_tgt": "(क) '' अधिनियम '' से भारतीय प्रतिभूति और विनिमय बोर्ड अधिनियम, 1992 (1992 का 15) अभिप्रेत है;",
+                "s_id": "4316efe5-182e-4a8a-a1e8-fb21c78e5447",
+                "save": true,
+                "src": "(a) “Act” means the Securities and Exchange Board of India Act, 1992 (15 of 1992);",
+                "tagged_src": "(a) “Act” means the Securities and Exchange Board of India Act, NnUuMm० (NnUuMm२ of NnUuMm१);",
+                "tagged_tgt": "(क) '' अधिनियम '' से भारतीय प्रतिभूति और विनिमय बोर्ड अधिनियम, NnUuMm० (NnUuMm१ का NnUuMm२) अभिप्रेत है;",
+                "tgt": "(क) '' अधिनियम '' से भारतीय प्रतिभूति और विनिमय बोर्ड अधिनियम, 1992 (1992 का 15) अभिप्रेत है;"
+              },
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|f3713342-e2a4-43ed-a14e-ae5ef98c03f1|6edb58cc-3b77-4f79-a11d-b88b68556c60",
+                "s0_src": " (b) \"asset management company\" means a company as defined under clause(d) of Regulation 2 of Securities and Exchange Board of India ( Mutual Funds) Regulations, 1996;",
+                "s0_tgt": "(ख) '' आस्ति प्रबंधन कंपनी '' से भारतीय प्रतिभूति और विनिमय बोर्ड (पारस्परिक निधि) विनियम, 1996 के विनियम 2 के खंड (घ) के अधीन यथापरिभाषित कोर्इ कंपनी अभिप्रेत है;",
+                "s_id": "6edb58cc-3b77-4f79-a11d-b88b68556c60",
+                "save": true,
+                "src": " (b) \"asset management company\" means a company as defined under clause(d) of Regulation 2 of Securities and Exchange Board of India ( Mutual Funds) Regulations, 1996;",
+                "tagged_src": "(b) \"asset management company\" means a company as defined under clause(d) of Regulation NnUuMm१ of Securities and Exchange Board of India ( Mutual Funds) Regulations, NnUuMm०;",
+                "tagged_tgt": "(ख) '' आस्ति प्रबंधन कंपनी '' से भारतीय प्रतिभूति और विनिमय बोर्ड (पारस्परिक निधि) विनियम, NnUuMm० के विनियम NnUuMm१ के खंड (घ) के अधीन यथापरिभाषित कोर्इ कंपनी अभिप्रेत है;",
+                "tgt": "(ख) '' आस्ति प्रबंधन कंपनी '' से भारतीय प्रतिभूति और विनिमय बोर्ड (पारस्परिक निधि) विनियम, 1996 के विनियम 2 के खंड (घ) के अधीन यथापरिभाषित कोर्इ कंपनी अभिप्रेत है;"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "21f9452778674e029d859e9357a38cf4",
+            "block_identifier": "d5a66f99-0af6-4d48-8b31-ffa123fff530",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "1368334f6e9f4f44874df8ecafeb2d3a",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "1b725e504d3149329630f8df4a7f84ad",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(c)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 910,
+                    "text_width": 20
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "bfe1bd2b30ee49babc5aa21508d1ce64",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "\"associate\"  means an associate as defined in Securities and Exchange Board of India ",
+                    "text_height": 16,
+                    "text_left": 193,
+                    "text_top": 910,
+                    "text_width": 622
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(c) \"associate\"  means an associate as defined in Securities and Exchange Board of India ",
+                "text_height": 16,
+                "text_left": 153,
+                "text_top": 910,
+                "text_width": 662
+              },
+              {
+                "attrib": "",
+                "block_id": "f18d2b852c844faf8265b2fc8e8f530b",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(Intermediaries) Regulations, 2008; ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 934,
+                "text_width": 261
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": " (c) \"associate\"  means an associate as defined in Securities and Exchange Board of India  (Intermediaries) Regulations, 2008; ",
+            "text_height": 40,
+            "text_left": 153,
+            "text_top": 910,
+            "text_width": 662,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|21f9452778674e029d859e9357a38cf4",
+                "s0_src": "(c) \"associate\" means an associate as defined in Securities and Exchange Board of India (Intermediaries) Regulations, 2008;",
+                "s0_tgt": "(ग) '' सहयोजित '' से भारतीय प्रतिभूति और विनिमय बोर्ड (मध्यवर्ती) विनियम, 2008 में यथापरिभाषित कोर्इ सहयोजित अभिप्रेत है;",
+                "s_id": "9a24fb87-de4c-4026-9f5e-42f6481ef62e",
+                "save": true,
+                "src": "(c) \"associate\" means an associate as defined in Securities and Exchange Board of India (Intermediaries) Regulations, 2008;",
+                "tagged_src": "(c) \"associate\" means an associate as defined in Securities and Exchange Board of India (Intermediaries) Regulations, NnUuMm०;",
+                "tagged_tgt": "(ग) '' सहयोजित '' से भारतीय प्रतिभूति और विनिमय बोर्ड (मध्यवर्ती) विनियम, NnUuMm० में यथापरिभाषित कोर्इ सहयोजित अभिप्रेत है;",
+                "tgt": "(ग) '' सहयोजित '' से भारतीय प्रतिभूति और विनिमय बोर्ड (मध्यवर्ती) विनियम, 2008 में यथापरिभाषित कोर्इ सहयोजित अभिप्रेत है;"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "16b52d2c126f48369af3d9acdcefe126",
+            "block_identifier": "dd67c76b-5546-4694-a198-4eadc55b47cd",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "10b5a75b0d824f898a905acc3dda1949",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "36b0ef4a8e294399898d960f8acf5040",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(d)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 957,
+                    "text_width": 21
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "351b4df9ad4a40a8af1ac5c3aa3a4a26",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "\"Board\" means the Securities and Exchange Board of India established under section ",
+                    "text_height": 16,
+                    "text_left": 193,
+                    "text_top": 957,
+                    "text_width": 621
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(d) \"Board\" means the Securities and Exchange Board of India established under section ",
+                "text_height": 16,
+                "text_left": 153,
+                "text_top": 957,
+                "text_width": 661
+              },
+              {
+                "attrib": "",
+                "block_id": "abe5f7c29d5d4e498d02e299dd268904",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "3 of the Act; ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 981,
+                "text_width": 95
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": " (d) \"Board\" means the Securities and Exchange Board of India established under section  3 of the Act; ",
+            "text_height": 40,
+            "text_left": 153,
+            "text_top": 957,
+            "text_width": 661,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|16b52d2c126f48369af3d9acdcefe126",
+                "s0_src": "(d) \"Board\" means the Securities and Exchange Board of India established under section 3 of the Act;",
+                "s0_tgt": "(घ) '' बोर्ड '' से अधिनियम की धारा 3 के अधीन स्थापित भारतीय प्रतिभूति और विनिमय बोर्ड अभिप्रेत है;",
+                "s_id": "095b86c4-2487-40c2-ac9c-643a0a459cf9",
+                "save": false,
+                "src": "(d) \"Board\" means the Securities and Exchange Board of India established under section 3 of the Act;",
+                "tagged_src": "(d) \"Board\" means the Securities and Exchange Board of India established under section NnUuMm० of the Act;",
+                "tagged_tgt": "(घ) '' बोर्ड '' से अधिनियम की धारा NnUuMm० के अधीन स्थापित भारतीय प्रतिभूति और विनिमय बोर्ड अभिप्रेत है;",
+                "tgt": "(घ) '' बोर्ड '' से अधिनियम की धारा 3 के अधीन स्थापित भारतीय प्रतिभूति और विनिमय बोर्ड अभिप्रेत है;"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 18,
+            "block_id": "b22d8e09273e44fda9beb136be77735f",
+            "block_identifier": "8454519e-af88-4434-a89a-9e7efa1885d4",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "7f201ec57556469d8315f26c6eb09db1",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "ca72d8bd08b44a1b8c0d827a29c4832a",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(e)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 1005,
+                    "text_width": 20
+                  },
+                  {
+                    "attrib": "SUPERSCRIPT",
+                    "block_id": "db4e8f9eb529431c8d032ccce3eecb8d",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "“certificate” means a certificate of registration granted under these regulations; ",
+                    "text_height": 20,
+                    "text_left": 193,
+                    "text_top": 1001,
+                    "text_width": 573
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(e) “certificate” means a certificate of registration granted under these regulations; ",
+                "text_height": 20,
+                "text_left": 153,
+                "text_top": 1001,
+                "text_width": 613
+              },
+              {
+                "attrib": null,
+                "block_id": "55eee341684646a9939dfd5937616071",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "6bc7329eed834969a14785d9d710b4d4",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(f)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 1029,
+                    "text_width": 18
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "55e7bebdcb784cd8b45440bc9a716b99",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": " “control” means control as defined under the Companies Act, 2013;  ",
+                    "text_height": 16,
+                    "text_left": 193,
+                    "text_top": 1029,
+                    "text_width": 503
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(f)  “control” means control as defined under the Companies Act, 2013;  ",
+                "text_height": 16,
+                "text_left": 153,
+                "text_top": 1029,
+                "text_width": 543
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 1,
+              "page_width": 918
+            },
+            "text": " (e) (f)  “control” means control as defined under the Companies Act, 2013;  ",
+            "text_height": 44,
+            "text_left": 153,
+            "text_top": 1001,
+            "text_width": 613,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|1|b22d8e09273e44fda9beb136be77735f",
+                "s0_src": "(e) (f) “control” means control as defined under the Companies Act, 2013;",
+                "s0_tgt": "(ड़) '' नियंत्रण '' से कंपनी अधिनियम, 2013 के अधीन यथापरिभाषित नियंत्रण अभिप्रेत है;",
+                "s_id": "d2799e86-89c5-447f-89ec-a9d263fdd1ff",
+                "save": false,
+                "src": "(e) (f) “control” means control as defined under the Companies Act, 2013;",
+                "tagged_src": "(e) (f) “control” means control as defined under the Companies Act, NnUuMm०;",
+                "tagged_tgt": "(ड़) '' नियंत्रण '' से कंपनी अधिनियम, NnUuMm० के अधीन यथापरिभाषित नियंत्रण अभिप्रेत है;",
+                "tgt": "(ड़) '' नियंत्रण '' से कंपनी अधिनियम, 2013 के अधीन यथापरिभाषित नियंत्रण अभिप्रेत है;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "images": [
+          {
+            "attrib": "IMAGE",
+            "base64": "iVBORw0KGgoAAAANSUhEUgAAA5YAAASkCAIAAACXfAIBAAAZrElEQVR4AezBAQ0AAAjAIO0f+uZwA7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgD+2GgAA+GOrAQCAP7YaAAD4Y6sBAIA/thoAAPhjqwEAgGsPDmgAAEAABmn/0DeHG/DHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8MdWAwAAf2w1AADwx1YDAAB/bDUAAPDHVgMAAH9sNQAA8McB8vzjfL8NFscAAAAASUVORK5CYII=",
+            "block_identifier": "223c4520-3892-47b4-8f95-8bc631c2a120",
+            "image_id": 0,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text_height": 1188,
+            "text_left": 0,
+            "text_top": 0,
+            "text_width": 918
+          }
+        ],
+        "page_height": 1188,
+        "page_no": 2,
+        "page_width": 918,
+        "text_blocks": [
+          {
+            "attrib": null,
+            "avg_line_height": 17,
+            "block_id": "9df285ab35f54c0c8a3d775b4fca184f",
+            "block_identifier": "6108a212-bc40-4cce-af23-2eb24ef0d95b",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 17,
+                "block_id": "9df285ab35f54c0c8a3d775b4fca184f",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "Calibri",
+                "font_size": 16,
+                "text": "Page  2  of  24",
+                "text_height": 17,
+                "text_left": 418,
+                "text_top": 1097,
+                "text_width": 82
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "Calibri",
+            "font_size": 16,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": "Page  2  of  24",
+            "text_height": 17,
+            "text_left": 418,
+            "text_top": 1097,
+            "text_width": 82,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|9df285ab35f54c0c8a3d775b4fca184f",
+                "s0_src": "Page 2 of 24",
+                "s0_tgt": "24 का पृष्ठ 2",
+                "s_id": "8f2b2757-d39c-4f09-893c-573f4607ed74",
+                "save": false,
+                "src": "Page 2 of 24",
+                "tagged_src": "Page NnUuMm१ of NnUuMm०",
+                "tagged_tgt": "NnUuMm० का पृष्ठ NnUuMm१",
+                "tgt": "24 का पृष्ठ 2"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "48dfe653597c48f38ada57540b5f96c2",
+            "block_identifier": "c51ed594-92e9-46ad-9914-6f52f1296ba3",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "826395f70a6743cc81cfacf39d257465",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "51f54f90965c4096a38be3d53ec6e928",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(g)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 100,
+                    "text_width": 21
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "a9b344cdbb4a440cb61295e4fdd01803",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "\"fund  manager\"  includes  fund  managers  of  a  mutual  fund  or  alternative  investment ",
+                    "text_height": 16,
+                    "text_left": 193,
+                    "text_top": 100,
+                    "text_width": 621
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(g) \"fund  manager\"  includes  fund  managers  of  a  mutual  fund  or  alternative  investment ",
+                "text_height": 16,
+                "text_left": 153,
+                "text_top": 100,
+                "text_width": 661
+              },
+              {
+                "attrib": "",
+                "block_id": "2edb91aaf9a245f3816e71dc7ed3006f",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "fund or venture capital fund or portfolio manager; ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 124,
+                "text_width": 364
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": " (g) \"fund  manager\"  includes  fund  managers  of  a  mutual  fund  or  alternative  investment  fund or venture capital fund or portfolio manager; ",
+            "text_height": 40,
+            "text_left": 153,
+            "text_top": 100,
+            "text_width": 661,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|48dfe653597c48f38ada57540b5f96c2",
+                "s0_src": "(g) \"fund manager\" includes fund managers of a mutual fund or alternative investment fund or venture capital fund or portfolio manager;",
+                "s0_tgt": "(छ) \"निधि प्रबंधक\" के अंतर्गत किसी पारस्परिक निधि या अनुकल्पी विनिधान निधि या जोखिम पूंजी निधि या पोर्टफोलियो प्रबंधक के निधि प्रबंधक भी हैं;",
+                "s_id": "a2325401-efab-470a-a3f3-92423b684db8",
+                "save": false,
+                "src": "(g) \"fund manager\" includes fund managers of a mutual fund or alternative investment fund or venture capital fund or portfolio manager;",
+                "tagged_src": "(g) \"fund manager\" includes fund managers of a mutual fund or alternative investment fund or venture capital fund or portfolio manager;",
+                "tagged_tgt": "(छ) \"निधि प्रबंधक\" के अंतर्गत किसी पारस्परिक निधि या अनुकल्पी विनिधान निधि या जोखिम पूंजी निधि या पोर्टफोलियो प्रबंधक के निधि प्रबंधक भी हैं;",
+                "tgt": "(छ) \"निधि प्रबंधक\" के अंतर्गत किसी पारस्परिक निधि या अनुकल्पी विनिधान निधि या जोखिम पूंजी निधि या पोर्टफोलियो प्रबंधक के निधि प्रबंधक भी हैं;"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "a288f32e2e7d49f89546c9e6b3dd55aa",
+            "block_identifier": "b8835807-67a2-41e9-8d94-1b3cfbfb2ae6",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "ae9d73590d544bfc83cbb924bfd3da08",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "99d3f656931e48a8950107a26cafafdc",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(h)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 148,
+                    "text_width": 21
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "549fdca63b29410fbc51ec2df27afaf0",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "\"independent  research  analyst\"  means  a  person  whose  only  business  activity  is ",
+                    "text_height": 16,
+                    "text_left": 193,
+                    "text_top": 148,
+                    "text_width": 621
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(h) \"independent  research  analyst\"  means  a  person  whose  only  business  activity  is ",
+                "text_height": 16,
+                "text_left": 153,
+                "text_top": 148,
+                "text_width": 661
+              },
+              {
+                "attrib": "",
+                "block_id": "b04ad2362c974252adac4e77212286f4",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "research analysis or preparation and/or publication of research report;  ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 172,
+                "text_width": 510
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": " (h) \"independent  research  analyst\"  means  a  person  whose  only  business  activity  is  research analysis or preparation and/or publication of research report;  ",
+            "text_height": 40,
+            "text_left": 153,
+            "text_top": 148,
+            "text_width": 661,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|a288f32e2e7d49f89546c9e6b3dd55aa",
+                "s0_src": "(h) \"independent research analyst\" means a person whose only business activity is research analysis or preparation and/or publication of research report;",
+                "s0_tgt": "(ज) \"स्वतंत्र अनुसंधान विश्लेषक\" से ऐसा व्यक्ति अभिप्रेत है जिसका एकमात्र कारबार क्रियाकलाप अनुसंधान विश्लेषण या तैयारी और/या अनुसंधान रिपोर्ट का प्रकाशन है;",
+                "s_id": "4544de85-9a2b-4a41-bbed-08ea1dc4aeac",
+                "save": false,
+                "src": "(h) \"independent research analyst\" means a person whose only business activity is research analysis or preparation and/or publication of research report;",
+                "tagged_src": "(h) \"independent research analyst\" means a person whose only business activity is research analysis or preparation and/or publication of research report;",
+                "tagged_tgt": "(ज) \"स्वतंत्र अनुसंधान विश्लेषक\" से ऐसा व्यक्ति अभिप्रेत है जिसका एकमात्र कारबार क्रियाकलाप अनुसंधान विश्लेषण या तैयारी और/या अनुसंधान रिपोर्ट का प्रकाशन है;",
+                "tgt": "(ज) \"स्वतंत्र अनुसंधान विश्लेषक\" से ऐसा व्यक्ति अभिप्रेत है जिसका एकमात्र कारबार क्रियाकलाप अनुसंधान विश्लेषण या तैयारी और/या अनुसंधान रिपोर्ट का प्रकाशन है;"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 18,
+            "block_id": "04bbe5c823ca4d96a777a4c350056b04",
+            "block_identifier": "67d08c53-d97c-4124-aa28-5bc13b8d0efe",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "f50519f57bed40168fd3f3f6db1becb5",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "040d2705e4954d8691f75358f362f01e",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(i)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 196,
+                    "text_width": 17
+                  },
+                  {
+                    "attrib": "SUPERSCRIPT",
+                    "block_id": "914680bf01e140119f660860756ed628",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "“inspecting  authority”  means  any  one  or  more  persons  appointed  by  the  Board  to ",
+                    "text_height": 20,
+                    "text_left": 193,
+                    "text_top": 192,
+                    "text_width": 621
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(i) “inspecting  authority”  means  any  one  or  more  persons  appointed  by  the  Board  to ",
+                "text_height": 20,
+                "text_left": 153,
+                "text_top": 192,
+                "text_width": 661
+              },
+              {
+                "attrib": "",
+                "block_id": "4f76dfa03fb24f68af12aacb00643b94",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "exercise powers conferred under regulation 27; ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 219,
+                "text_width": 344
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": " (i) exercise powers conferred under regulation 27; ",
+            "text_height": 43,
+            "text_left": 153,
+            "text_top": 192,
+            "text_width": 661,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|04bbe5c823ca4d96a777a4c350056b04",
+                "s0_src": "(i) exercise powers conferred under regulation 27;",
+                "s0_tgt": "(i) विनियम 27 के अधीन प्रदत्त शक्तियों का प्रयोग;",
+                "s_id": "66aa459a-6253-4a96-a038-a91b9861464d",
+                "save": false,
+                "src": "(i) exercise powers conferred under regulation 27;",
+                "tagged_src": "(i) exercise powers conferred under regulation NnUuMm०;",
+                "tagged_tgt": "(i) विनियम NnUuMm० के अधीन प्रदत्त शक्तियों का प्रयोग;",
+                "tgt": "(i) विनियम 27 के अधीन प्रदत्त शक्तियों का प्रयोग;"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "34cdf2e352254c4b8e5bbda4cfe92230",
+            "block_identifier": "21ee3364-dd8f-4135-94e4-2b7bfb3ea69e",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "d1f1aff768564067ae93da0645161d8b",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "51509872efb447e8b1645105d6d03038",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(j)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 243,
+                    "text_width": 17
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "491d2eab85b042a6b704f8af1e88e46f",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "\"investment  adviser\"  means  any  person  registered  under  Securities  and  Exchange ",
+                    "text_height": 16,
+                    "text_left": 193,
+                    "text_top": 243,
+                    "text_width": 622
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(j) \"investment  adviser\"  means  any  person  registered  under  Securities  and  Exchange ",
+                "text_height": 16,
+                "text_left": 153,
+                "text_top": 243,
+                "text_width": 662
+              },
+              {
+                "attrib": "",
+                "block_id": "fd14fcfac66542ee850eca4ccef423ed",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "Board of India (Investment Advisers) Regulations, 2013; ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 267,
+                "text_width": 415
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": " (j) \"investment  adviser\"  means  any  person  registered  under  Securities  and  Exchange  Board of India (Investment Advisers) Regulations, 2013; ",
+            "text_height": 40,
+            "text_left": 153,
+            "text_top": 243,
+            "text_width": 662,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|34cdf2e352254c4b8e5bbda4cfe92230",
+                "s0_src": "(j) \"investment adviser\" means any person registered under Securities and Exchange Board of India (Investment Advisers) Regulations, 2013;",
+                "s0_tgt": "(ञ) \"विनिधान सलाहकार\" से भारतीय प्रतिभूति और विनिमय बोर्ड (विनिधान सलाहकार) विनियम, 2013 के अधीन रजिस्ट्रीकृत कोर्इ व्यक्ति अभिप्रेत है;",
+                "s_id": "0146afd3-5413-46e7-a768-b1d429ace605",
+                "save": false,
+                "src": "(j) \"investment adviser\" means any person registered under Securities and Exchange Board of India (Investment Advisers) Regulations, 2013;",
+                "tagged_src": "(j) \"investment adviser\" means any person registered under Securities and Exchange Board of India (Investment Advisers) Regulations, NnUuMm०;",
+                "tagged_tgt": "(ञ) \"विनिधान सलाहकार\" से भारतीय प्रतिभूति और विनिमय बोर्ड (विनिधान सलाहकार) विनियम, NnUuMm० के अधीन रजिस्ट्रीकृत कोर्इ व्यक्ति अभिप्रेत है;",
+                "tgt": "(ञ) \"विनिधान सलाहकार\" से भारतीय प्रतिभूति और विनिमय बोर्ड (विनिधान सलाहकार) विनियम, 2013 के अधीन रजिस्ट्रीकृत कोर्इ व्यक्ति अभिप्रेत है;"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 18,
+            "block_id": "862b9baa54064ac4b8b45b5c0b99adc4",
+            "block_identifier": "9b6779d6-aeb0-41f5-a2a3-db5f54bbb4b7",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "cd56ff0aaf0f4114931c3bb5d617bc8d",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "cc7c1ebe12e349029bf47fa4546c6aa5",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(k)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 291,
+                    "text_width": 21
+                  },
+                  {
+                    "attrib": "SUPERSCRIPT",
+                    "block_id": "06c4533712fc46b2a4608deda0aa4cd2",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "“limited liability partnership” means a partnership formed and registered under The ",
+                    "text_height": 20,
+                    "text_left": 193,
+                    "text_top": 287,
+                    "text_width": 621
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(k) “limited liability partnership” means a partnership formed and registered under The ",
+                "text_height": 20,
+                "text_left": 153,
+                "text_top": 287,
+                "text_width": 661
+              },
+              {
+                "attrib": "",
+                "block_id": "906126fad815408f854bc61a599b1862",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "Limited Liability Partnership Act, 2008(6 of  2009); ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 315,
+                "text_width": 381
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": " (k) Limited Liability Partnership Act, 2008(6 of  2009); ",
+            "text_height": 44,
+            "text_left": 153,
+            "text_top": 287,
+            "text_width": 661,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|862b9baa54064ac4b8b45b5c0b99adc4",
+                "s0_src": "(k) Limited Liability Partnership Act, 2008(6 of 2009);",
+                "s0_tgt": "(ट) सीमित दायित्व भागीदारी अधिनियम, 2008 (2009 का 6);",
+                "s_id": "8344660c-dc1a-439e-a82a-3bd0d61c6fe1",
+                "save": false,
+                "src": "(k) Limited Liability Partnership Act, 2008(6 of 2009);",
+                "tagged_src": "(k) Limited Liability Partnership Act, NnUuMm१(NnUuMm२ of NnUuMm०);",
+                "tagged_tgt": "(ट) सीमित दायित्व भागीदारी अधिनियम, NnUuMm१ (NnUuMm० का NnUuMm२);",
+                "tgt": "(ट) सीमित दायित्व भागीदारी अधिनियम, 2008 (2009 का 6);"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 17,
+            "block_id": "0148c12e940a47f4af92fc12f58ad80b",
+            "block_identifier": "c82c51ab-47e1-43a2-92ac-5cf76aaa2fa2",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "d5c369cd52384fa9b47f0e032b0e3cf2",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "cdbed8aa93d64497857676f9e2c2a47f",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(l)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 338,
+                    "text_width": 17
+                  },
+                  {
+                    "attrib": "SUPERSCRIPT",
+                    "block_id": "8103d32050854368ac8bb5fe2c8e620f",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "“merchant banking or investment banking or brokerage services” includes,-  ",
+                    "text_height": 20,
+                    "text_left": 193,
+                    "text_top": 335,
+                    "text_width": 553
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(l) “merchant banking or investment banking or brokerage services” includes,-  ",
+                "text_height": 19,
+                "text_left": 153,
+                "text_top": 335,
+                "text_width": 593
+              },
+              {
+                "attrib": null,
+                "block_id": "1a21624eceb94a6abe6d9507d7d63ec3",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "64009efa5ce54f1d89138c7fb6a781c8",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "i.",
+                    "text_height": 16,
+                    "text_left": 211,
+                    "text_top": 362,
+                    "text_width": 10
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "c6acde31e0af4eaaaa41732d850ebc21",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "acting as an underwriter;  ",
+                    "text_height": 16,
+                    "text_left": 247,
+                    "text_top": 362,
+                    "text_width": 187
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "i. acting as an underwriter;  ",
+                "text_height": 16,
+                "text_left": 211,
+                "text_top": 362,
+                "text_width": 223
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": " (l) i. acting as an underwriter;  ",
+            "text_height": 43,
+            "text_left": 153,
+            "text_top": 335,
+            "text_width": 593,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|0148c12e940a47f4af92fc12f58ad80b",
+                "s0_src": "(l)",
+                "s0_tgt": "(l)",
+                "s_id": "8c9bd512-747c-49fe-bfaa-5bef982c8e24",
+                "save": false,
+                "src": "(l)",
+                "tagged_src": "(l)",
+                "tagged_tgt": "(l)",
+                "tgt": "(l)"
+              },
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|0148c12e940a47f4af92fc12f58ad80b",
+                "s0_src": "i. acting as an underwriter;",
+                "s0_tgt": "(क) हामीदारीदाता के रूप में कार्य करना;",
+                "s_id": "537e800c-d6c0-49b3-b34b-1d056532f4b1",
+                "save": false,
+                "src": "i. acting as an underwriter;",
+                "tagged_src": "i. acting as an underwriter;",
+                "tagged_tgt": "(क) हामीदारीदाता के रूप में कार्य करना;",
+                "tgt": "(क) हामीदारीदाता के रूप में कार्य करना;"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "51c286a5ddc246efbdf9352732eb4d84",
+            "block_identifier": "cdbe7ac1-ae23-4086-a37a-791c40192d2d",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "821b765ea3d1443c8a3fdd7965f0438f",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "c88a3f0b92af44d2bea69224a60b9181",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "ii.",
+                    "text_height": 16,
+                    "text_left": 206,
+                    "text_top": 386,
+                    "text_width": 15
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "3d23363e36a049d2908fc6302a2d6a50",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "participating  in  a  selling  or  an  offering  for  the  issuer  or  otherwise  acting  in ",
+                    "text_height": 16,
+                    "text_left": 247,
+                    "text_top": 386,
+                    "text_width": 567
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "ii. participating  in  a  selling  or  an  offering  for  the  issuer  or  otherwise  acting  in ",
+                "text_height": 16,
+                "text_left": 206,
+                "text_top": 386,
+                "text_width": 608
+              },
+              {
+                "attrib": "",
+                "block_id": "fb637ef6b874476fadb010886ab7c6e4",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "furtherance of a public offer of the issuer;  ",
+                "text_height": 16,
+                "text_left": 247,
+                "text_top": 410,
+                "text_width": 310
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": " ii. participating  in  a  selling  or  an  offering  for  the  issuer  or  otherwise  acting  in  furtherance of a public offer of the issuer;  ",
+            "text_height": 40,
+            "text_left": 206,
+            "text_top": 386,
+            "text_width": 608,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|51c286a5ddc246efbdf9352732eb4d84",
+                "s0_src": "ii.",
+                "s0_tgt": "",
+                "s_id": "fc2a3388-7cb1-4e90-9773-6164971ac77d",
+                "save": false,
+                "src": "ii.",
+                "tagged_src": "ii.",
+                "tagged_tgt": "",
+                "tgt": ""
+              },
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|51c286a5ddc246efbdf9352732eb4d84",
+                "s0_src": "participating in a selling or an offering for the issuer or otherwise acting in furtherance of a public offer of the issuer;",
+                "s0_tgt": "जारीकर्ता के सार्वजनिक पेशकश को आगे बढ़ाने के लिए कार्य करने वाले या जारीकर्ता के लिए बिक्री या पेशकश में प्रतिबंध;",
+                "s_id": "ec40a999-6160-496b-ab61-3e859beef465",
+                "save": false,
+                "src": "participating in a selling or an offering for the issuer or otherwise acting in furtherance of a public offer of the issuer;",
+                "tagged_src": "participating in a selling or an offering for the issuer or otherwise acting in furtherance of a public offer of the issuer;",
+                "tagged_tgt": "जारीकर्ता के सार्वजनिक पेशकश को आगे बढ़ाने के लिए कार्य करने वाले या जारीकर्ता के लिए बिक्री या पेशकश में प्रतिबंध;",
+                "tgt": "जारीकर्ता के सार्वजनिक पेशकश को आगे बढ़ाने के लिए कार्य करने वाले या जारीकर्ता के लिए बिक्री या पेशकश में प्रतिबंध;"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "a5163209fa0b498d86b56374cc4e6bd8",
+            "block_identifier": "4a7c5592-490f-47f7-b817-53767e937f84",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "0064f84c294c440d912ac0400f31e284",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "a1943d8898b94cc1b20c8fbe53305cdd",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "iii.",
+                    "text_height": 16,
+                    "text_left": 201,
+                    "text_top": 434,
+                    "text_width": 20
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "1d9ecf99036b46e58aa1346acd5453e4",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "acting as an adviser in a merger  or acquisition;  ",
+                    "text_height": 16,
+                    "text_left": 247,
+                    "text_top": 434,
+                    "text_width": 349
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "iii. acting as an adviser in a merger  or acquisition;  ",
+                "text_height": 16,
+                "text_left": 201,
+                "text_top": 434,
+                "text_width": 395
+              },
+              {
+                "attrib": null,
+                "block_id": "992d7cd04bd949a580c70684f557bd44",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "6755ef8f939b4d3ebf0888cb1e45a891",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "iv.",
+                    "text_height": 16,
+                    "text_left": 202,
+                    "text_top": 458,
+                    "text_width": 19
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "1f61acd6a493464292347b4cf84bcf10",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "providing or arranging venture capital or equity or debt;  ",
+                    "text_height": 16,
+                    "text_left": 247,
+                    "text_top": 458,
+                    "text_width": 412
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "iv. providing or arranging venture capital or equity or debt;  ",
+                "text_height": 16,
+                "text_left": 202,
+                "text_top": 458,
+                "text_width": 457
+              },
+              {
+                "attrib": null,
+                "block_id": "7121742790af4bab96315227d08f1b40",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "64769c4215cb4018b86f51772738d037",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "v.",
+                    "text_height": 16,
+                    "text_left": 207,
+                    "text_top": 481,
+                    "text_width": 14
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "2b06ba22c4b741d98c6bad3b39b4e513",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "serving as placement agent for the issuer or otherwise acting in furtherance of ",
+                    "text_height": 16,
+                    "text_left": 247,
+                    "text_top": 481,
+                    "text_width": 567
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "v. serving as placement agent for the issuer or otherwise acting in furtherance of ",
+                "text_height": 16,
+                "text_left": 207,
+                "text_top": 481,
+                "text_width": 607
+              },
+              {
+                "attrib": "",
+                "block_id": "9b6f0177fc4042498fbefb0866d5f10e",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "a private offering of the issuer;  ",
+                "text_height": 16,
+                "text_left": 247,
+                "text_top": 505,
+                "text_width": 231
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": " iii. acting as an adviser in a merger  or acquisition;   iv. providing or arranging venture capital or equity or debt;   v. serving as placement agent for the issuer or otherwise acting in furtherance of  a private offering of the issuer;  ",
+            "text_height": 87,
+            "text_left": 201,
+            "text_top": 434,
+            "text_width": 613,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|a5163209fa0b498d86b56374cc4e6bd8",
+                "s0_src": "iii.",
+                "s0_tgt": ").",
+                "s_id": "cb752779-5421-4d68-a741-5bcc68d9c07e",
+                "save": false,
+                "src": "iii.",
+                "tagged_src": "iii.",
+                "tagged_tgt": ").",
+                "tgt": ")."
+              },
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|a5163209fa0b498d86b56374cc4e6bd8",
+                "s0_src": "acting as an adviser in a merger or acquisition;",
+                "s0_tgt": "विलयन या अधिप्राप्ति में सलाहकार के रूप में कार्य करना;",
+                "s_id": "2bb9d695-1f80-4ccd-9b2d-57982cbc6fab",
+                "save": false,
+                "src": "acting as an adviser in a merger or acquisition;",
+                "tagged_src": "acting as an adviser in a merger or acquisition;",
+                "tagged_tgt": "विलयन या अधिप्राप्ति में सलाहकार के रूप में कार्य करना;",
+                "tgt": "विलयन या अधिप्राप्ति में सलाहकार के रूप में कार्य करना;"
+              },
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|a5163209fa0b498d86b56374cc4e6bd8",
+                "s0_src": "iv. providing or arranging venture capital or equity or debt;  v. serving as placement agent for the issuer or otherwise acting in furtherance of a private offering of the issuer;",
+                "s0_tgt": ". उद्यम पूंजी या इक्विटी या ऋण की व्यवस्था करना या व्यवस्था करना; v. निर्गमकर्ता के लिए प्लेसमेंट एजेंट के रूप में कार्य करना या अन्यथा निर्गमकर्ता की निजी पेशकश को आगे बढ़ाना;",
+                "s_id": "ed2195b4-56e8-409d-8d2e-301f6b81fd6a",
+                "save": false,
+                "src": "iv. providing or arranging venture capital or equity or debt;  v. serving as placement agent for the issuer or otherwise acting in furtherance of a private offering of the issuer;",
+                "tagged_src": "iv. providing or arranging venture capital or equity or debt; v. serving as placement agent for the issuer or otherwise acting in furtherance of a private offering of the issuer;",
+                "tagged_tgt": ". उद्यम पूंजी या इक्विटी या ऋण की व्यवस्था करना या व्यवस्था करना; v. निर्गमकर्ता के लिए प्लेसमेंट एजेंट के रूप में कार्य करना या अन्यथा निर्गमकर्ता की निजी पेशकश को आगे बढ़ाना;",
+                "tgt": ". उद्यम पूंजी या इक्विटी या ऋण की व्यवस्था करना या व्यवस्था करना; v. निर्गमकर्ता के लिए प्लेसमेंट एजेंट के रूप में कार्य करना या अन्यथा निर्गमकर्ता की निजी पेशकश को आगे बढ़ाना;"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "4f36b290f3724b48a2c13aa75d168148",
+            "block_identifier": "63ea4965-911d-4ab2-a527-5540a1d08b82",
+            "children": [
+              {
+                "attrib": null,
+                "avg_line_height": 16,
+                "block_id": "4f36b290f3724b48a2c13aa75d168148",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "vi. offering brokerage or market making services; ",
+                "text_height": 16,
+                "text_left": 202,
+                "text_top": 529,
+                "text_width": 384
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": "vi. offering brokerage or market making services; ",
+            "text_height": 16,
+            "text_left": 202,
+            "text_top": 529,
+            "text_width": 384,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|4f36b290f3724b48a2c13aa75d168148",
+                "s0_src": "vi.",
+                "s0_tgt": "V.",
+                "s_id": "7925d74c-3c30-4567-90cf-4f56b16253fc",
+                "save": false,
+                "src": "vi.",
+                "tagged_src": "vi.",
+                "tagged_tgt": "V.",
+                "tgt": "V."
+              },
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|4f36b290f3724b48a2c13aa75d168148",
+                "s0_src": "offering brokerage or market making services;",
+                "s0_tgt": "दलाली या बाजार निर्माण सेवाएं;",
+                "s_id": "9eb6cf26-221d-48eb-a88d-00f1fa63fb81",
+                "save": false,
+                "src": "offering brokerage or market making services;",
+                "tagged_src": "offering brokerage or market making services;",
+                "tagged_tgt": "दलाली या बाजार निर्माण सेवाएं;",
+                "tgt": "दलाली या बाजार निर्माण सेवाएं;"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 18,
+            "block_id": "cb8c7510fa3a41cb9f767cf1fed8b416",
+            "block_identifier": "655e9626-b578-485a-a855-7f6b52da91ed",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "cb8e68a080ea4d128b285df5fb01a089",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "62c2eedd892044d9a691361c60ecbca4",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(m)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 553,
+                    "text_width": 26
+                  },
+                  {
+                    "attrib": "SUPERSCRIPT",
+                    "block_id": "ada71b045b9147869092ddabdc403eee",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "“NBFC”  means  a  Non-Banking  Financial  Company  registered  by  Reserve  Bank  of ",
+                    "text_height": 20,
+                    "text_left": 193,
+                    "text_top": 549,
+                    "text_width": 621
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(m) “NBFC”  means  a  Non-Banking  Financial  Company  registered  by  Reserve  Bank  of ",
+                "text_height": 20,
+                "text_left": 153,
+                "text_top": 549,
+                "text_width": 661
+              },
+              {
+                "attrib": "",
+                "block_id": "237e758c820045889a54c839179a9fb6",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "India; ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 576,
+                "text_width": 47
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": " (m) India; ",
+            "text_height": 43,
+            "text_left": 153,
+            "text_top": 549,
+            "text_width": 661,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|cb8c7510fa3a41cb9f767cf1fed8b416",
+                "s0_src": "(m) India;",
+                "s0_tgt": "(ड) भारत;",
+                "s_id": "c153e217-4663-4879-8d46-7bb9fc2b4fc4",
+                "save": false,
+                "src": "(m) India;",
+                "tagged_src": "(m) India;",
+                "tagged_tgt": "(ड) भारत;",
+                "tgt": "(ड) भारत;"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 17,
+            "block_id": "ead02fb6082f46019d29a8b668f429a3",
+            "block_identifier": "49dfd959-9132-4db1-8fd2-a2a9916802a9",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "5c11b7f225724363b809c9aeb453b448",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "7acf6901f46d463aa3157bba94b4570e",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(n)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 600,
+                    "text_width": 21
+                  },
+                  {
+                    "attrib": "SUPERSCRIPT",
+                    "block_id": "a928c37110234993872e2b0b5efb3e84",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "“NISM” means the National Institute of Securities Market established by the  Board; ",
+                    "text_height": 20,
+                    "text_left": 193,
+                    "text_top": 597,
+                    "text_width": 615
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(n) “NISM” means the National Institute of Securities Market established by the  Board; ",
+                "text_height": 19,
+                "text_left": 153,
+                "text_top": 597,
+                "text_width": 655
+              },
+              {
+                "attrib": null,
+                "block_id": "8b8c1340758a4d839169eaf5657c940d",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "1dda9822d9294726b5420b13d609265b",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(o)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 624,
+                    "text_width": 21
+                  },
+                  {
+                    "attrib": "",
+                    "block_id": "52bbfbc3db6247e590578ee88cd44ffc",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "\"price  target\"  means  expectations  of  research  analyst  on  the  future  performance  of ",
+                    "text_height": 16,
+                    "text_left": 193,
+                    "text_top": 624,
+                    "text_width": 621
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(o) \"price  target\"  means  expectations  of  research  analyst  on  the  future  performance  of ",
+                "text_height": 16,
+                "text_left": 153,
+                "text_top": 624,
+                "text_width": 661
+              },
+              {
+                "attrib": "",
+                "block_id": "1384c3efdd954024951a20b46091c518",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "specific securities; ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 648,
+                "text_width": 138
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": " (n) (o) \"price  target\"  means  expectations  of  research  analyst  on  the  future  performance  of  specific securities; ",
+            "text_height": 67,
+            "text_left": 153,
+            "text_top": 597,
+            "text_width": 661,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|ead02fb6082f46019d29a8b668f429a3",
+                "s0_src": "(n) (o) \"price target\" means expectations of research analyst on the future performance of specific securities;",
+                "s0_tgt": "(ढ) '' मूल्य लक्ष्य '' से विशिष्ट प्रतिभूतियों के भावी निष्पादन पर अनुसंधान विश्लेषक की अपेक्षाएं अभिप्रेत हैं;",
+                "s_id": "32b4302d-29e9-4207-9c81-f2e605a1786d",
+                "save": false,
+                "src": "(n) (o) \"price target\" means expectations of research analyst on the future performance of specific securities;",
+                "tagged_src": "(n) (o) \"price target\" means expectations of research analyst on the future performance of specific securities;",
+                "tagged_tgt": "(ढ) '' मूल्य लक्ष्य '' से विशिष्ट प्रतिभूतियों के भावी निष्पादन पर अनुसंधान विश्लेषक की अपेक्षाएं अभिप्रेत हैं;",
+                "tgt": "(ढ) '' मूल्य लक्ष्य '' से विशिष्ट प्रतिभूतियों के भावी निष्पादन पर अनुसंधान विश्लेषक की अपेक्षाएं अभिप्रेत हैं;"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 17,
+            "block_id": "5ef8c2e1441a4cba89fcd7891337fc78",
+            "block_identifier": "0c62647a-4fa3-4f1c-8cfe-4036824f751d",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "93c19912f0864f67a3e53755e9fa81b3",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "0163058eed32440ca99e97b6aeb187c0",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(p)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 672,
+                    "text_width": 21
+                  },
+                  {
+                    "attrib": "SUPERSCRIPT",
+                    "block_id": "cf14ba9a0af54a339a7ebcd79a0d8516",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "\"proxy  adviser”  means  any  person  who  provide  advice,  through  any  means,  to ",
+                    "text_height": 20,
+                    "text_left": 193,
+                    "text_top": 668,
+                    "text_width": 621
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(p) \"proxy  adviser”  means  any  person  who  provide  advice,  through  any  means,  to ",
+                "text_height": 20,
+                "text_left": 153,
+                "text_top": 668,
+                "text_width": 661
+              },
+              {
+                "attrib": "",
+                "block_id": "e68ab1119ad84150b2bccffec0686404",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "institutional investor or shareholder of a company, in relation to exercise of their rights ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 696,
+                "text_width": 621
+              },
+              {
+                "attrib": "",
+                "block_id": "bc428d31fe624d9584d3ab66c7f7c185",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "in the company including recommendations on public offer or voting recommendation ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 719,
+                "text_width": 621
+              },
+              {
+                "attrib": "",
+                "block_id": "bf2b99e6816141758882b29b9de25996",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "on agenda items; ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 743,
+                "text_width": 127
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": " (p) institutional investor or shareholder of a company, in relation to exercise of their rights  in the company including recommendations on public offer or voting recommendation  on agenda items; ",
+            "text_height": 91,
+            "text_left": 153,
+            "text_top": 668,
+            "text_width": 661,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|5ef8c2e1441a4cba89fcd7891337fc78",
+                "s0_src": "(p) institutional investor or shareholder of a company, in relation to exercise of their rights in the company including recommendations on public offer or voting recommendation on agenda items;",
+                "s0_tgt": "(त) कंपनी में अपने अधिकारों का प्रयोग करने के संबंध में, जिसके अंतर्गत कार्यसूची की मदों पर लोक प्रस्थापना या मतदान संबंधी सिफारिश पर सिफारिशें हैं, किसी कंपनी का संस्थागत विनिधानकर्ता या शेयरधारक;",
+                "s_id": "d2713e1c-de48-4c3f-bec6-4612b8f81e96",
+                "save": false,
+                "src": "(p) institutional investor or shareholder of a company, in relation to exercise of their rights in the company including recommendations on public offer or voting recommendation on agenda items;",
+                "tagged_src": "(p) institutional investor or shareholder of a company, in relation to exercise of their rights in the company including recommendations on public offer or voting recommendation on agenda items;",
+                "tagged_tgt": "(त) कंपनी में अपने अधिकारों का प्रयोग करने के संबंध में, जिसके अंतर्गत कार्यसूची की मदों पर लोक प्रस्थापना या मतदान संबंधी सिफारिश पर सिफारिशें हैं, किसी कंपनी का संस्थागत विनिधानकर्ता या शेयरधारक;",
+                "tgt": "(त) कंपनी में अपने अधिकारों का प्रयोग करने के संबंध में, जिसके अंतर्गत कार्यसूची की मदों पर लोक प्रस्थापना या मतदान संबंधी सिफारिश पर सिफारिशें हैं, किसी कंपनी का संस्थागत विनिधानकर्ता या शेयरधारक;"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "bb1c783d83a2477db9091a4100500408",
+            "block_identifier": "71e753e4-8cf3-451e-a1ef-1060be70a221",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "24d558e6d20e42afb28ca5577bec1f2e",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "08847a84786d420ba5520747e07b09fa",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(q)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 767,
+                    "text_width": 21
+                  },
+                  {
+                    "attrib": "SUPERSCRIPT",
+                    "block_id": "f6275b71ad424596b9911ce56c3c3809",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "“public  appearance”  means  any  participation  in  a  conference  call,  seminar,  forum ",
+                    "text_height": 20,
+                    "text_left": 193,
+                    "text_top": 763,
+                    "text_width": 622
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(q) “public  appearance”  means  any  participation  in  a  conference  call,  seminar,  forum ",
+                "text_height": 20,
+                "text_left": 153,
+                "text_top": 763,
+                "text_width": 662
+              },
+              {
+                "attrib": "",
+                "block_id": "eafc1e0ec59e4a62b305128af1695fc0",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(including  interactive  and  non-interactive  electronic  forum),  radio  or  television  or ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 791,
+                "text_width": 621
+              },
+              {
+                "attrib": "",
+                "block_id": "580c895f79ac4f7dabdee78037526f8f",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "internet or web or print media broadcast, authoring a print media article or other public ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 815,
+                "text_width": 621
+              },
+              {
+                "attrib": "",
+                "block_id": "f794b43c75e74c328f7a1a9f85f6fe00",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "speaking activity in public media in which a research analyst makes a recommendation ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 839,
+                "text_width": 622
+              },
+              {
+                "attrib": "",
+                "block_id": "76ab4310c20c4dbaaccc969436b4f0ad",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "or offers an opinion, concerning securities or public offer:   ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 862,
+                "text_width": 431
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": " (q) (including  interactive  and  non-interactive  electronic  forum),  radio  or  television  or  internet or web or print media broadcast, authoring a print media article or other public  speaking activity in public media in which a research analyst makes a recommendation  or offers an opinion, concerning securities or public offer:   ",
+            "text_height": 115,
+            "text_left": 153,
+            "text_top": 763,
+            "text_width": 662,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|bb1c783d83a2477db9091a4100500408",
+                "s0_src": "(q) (including interactive and non-interactive electronic forum), radio or television or internet or web or print media broadcast, authoring a print media article or other public speaking activity in public media in which a research analyst makes a recommendation or offers an opinion, concerning securities or public offer:",
+                "s0_tgt": "(थ) (जिसके अंतर्गत इंटरएक्टिव और गैर-सक्रिय इलेक्ट्रॉनिक फोरम भी है), रेडियो या टेलीविजन या इंटरनेट या वेब या प्रिंट मीडिया प्रसारण, पब्लिक मीडिया में प्रिंट मीडिया लेख या अन्य सार्वजनिक बोलने की गतिविधि को प्राधिकृत करता है जिसमें एक अनुसंधान विश्लेषक एक सिफारिश करता है या प्रतिभूतियों या सार्वजनिक प्रस्ताव से संबंधित एक राय प्रदान करता है:",
+                "s_id": "824a0236-c8ea-4f38-ab83-87a89294ce8c",
+                "save": false,
+                "src": "(q) (including interactive and non-interactive electronic forum), radio or television or internet or web or print media broadcast, authoring a print media article or other public speaking activity in public media in which a research analyst makes a recommendation or offers an opinion, concerning securities or public offer:",
+                "tagged_src": "(q) (including interactive and non-interactive electronic forum), radio or television or internet or web or print media broadcast, authoring a print media article or other public speaking activity in public media in which a research analyst makes a recommendation or offers an opinion, concerning securities or public offer:",
+                "tagged_tgt": "(थ) (जिसके अंतर्गत इंटरएक्टिव और गैर-सक्रिय इलेक्ट्रॉनिक फोरम भी है), रेडियो या टेलीविजन या इंटरनेट या वेब या प्रिंट मीडिया प्रसारण, पब्लिक मीडिया में प्रिंट मीडिया लेख या अन्य सार्वजनिक बोलने की गतिविधि को प्राधिकृत करता है जिसमें एक अनुसंधान विश्लेषक एक सिफारिश करता है या प्रतिभूतियों या सार्वजनिक प्रस्ताव से संबंधित एक राय प्रदान करता है:",
+                "tgt": "(थ) (जिसके अंतर्गत इंटरएक्टिव और गैर-सक्रिय इलेक्ट्रॉनिक फोरम भी है), रेडियो या टेलीविजन या इंटरनेट या वेब या प्रिंट मीडिया प्रसारण, पब्लिक मीडिया में प्रिंट मीडिया लेख या अन्य सार्वजनिक बोलने की गतिविधि को प्राधिकृत करता है जिसमें एक अनुसंधान विश्लेषक एक सिफारिश करता है या प्रतिभूतियों या सार्वजनिक प्रस्ताव से संबंधित एक राय प्रदान करता है:"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 16,
+            "block_id": "12fbd41648fa4dcb95a67410724045c4",
+            "block_identifier": "cef26bc6-9421-4630-8345-39aca829a90f",
+            "children": [
+              {
+                "attrib": "",
+                "block_id": "fafed75959e942cd87df6867c1573356",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "Provided that it does not include a password protected webcast, conference call or such ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 886,
+                "text_width": 621
+              },
+              {
+                "attrib": "",
+                "block_id": "ffed3bbade774690a10855ae5add1750",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "other  events  with  the  clients, if  all  of  the  event  participants  previously  received  the ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 910,
+                "text_width": 621
+              },
+              {
+                "attrib": "",
+                "block_id": "f8f12dd977be4964a4d4825b4b823036",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "research  report  or  other  documentation  that  contains  the  required  applicable ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 934,
+                "text_width": 621
+              },
+              {
+                "attrib": "",
+                "block_id": "1bbd87527b2d42a5ac7c74f8b6abc322",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "disclosures and that the research analyst appearing at the event corrects and updates ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 957,
+                "text_width": 621
+              },
+              {
+                "attrib": "",
+                "block_id": "39751d1f910e40929a7c38cab9278b19",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "during the public appearance any disclosures in the research report that are inaccurate, ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 981,
+                "text_width": 621
+              },
+              {
+                "attrib": "",
+                "block_id": "3fae6e6c93d14d5c85402eb58235c736",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "misleading or no longer applicable; ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 1005,
+                "text_width": 259
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": " Provided that it does not include a password protected webcast, conference call or such  other  events  with  the  clients, if  all  of  the  event  participants  previously  received  the  research  report  or  other  documentation  that  contains  the  required  applicable  disclosures and that the research analyst appearing at the event corrects and updates  during the public appearance any disclosures in the research report that are inaccurate,  misleading or no longer applicable; ",
+            "text_height": 135,
+            "text_left": 193,
+            "text_top": 886,
+            "text_width": 621,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|12fbd41648fa4dcb95a67410724045c4",
+                "s0_src": "Provided that it does not include a password protected webcast, conference call or such other events with the clients, if all of the event participants previously received the research report or other documentation that contains the required applicable disclosures and that the research analyst appearing at the event corrects and updates during the public appearance any disclosures in the research report that are inaccurate, misleading or no longer applicable;",
+                "s0_tgt": "बशर्ते कि इसमें पासवर्ड संरक्षित वेबकास्ट, सम्मेलन कॉल या ग्राहकों के साथ ऐसी अन्य घटनाएं शामिल नहीं हैं, अगर सभी घटना प्रतिभागियों को पहले से अनुसंधान रिपोर्ट या अन्य दस्तावेज मिले, जिसमें आवश्यक लागू खुलासे शामिल हैं और यह कि सार्वजनिक उपस्थिति के दौरान प्रदर्शित होने वाले अनुसंधान विश्लेषक अनुसंधान रिपोर्ट में किसी भी खुलासे को सही और अद्यतन करते हैं जो गलत, भ्रामक या अब लागू नहीं हैं।",
+                "s_id": "e1462d2f-f88a-4c2b-9b48-d5c71a3bab06",
+                "save": false,
+                "src": "Provided that it does not include a password protected webcast, conference call or such other events with the clients, if all of the event participants previously received the research report or other documentation that contains the required applicable disclosures and that the research analyst appearing at the event corrects and updates during the public appearance any disclosures in the research report that are inaccurate, misleading or no longer applicable;",
+                "tagged_src": "Provided that it does not include a password protected webcast, conference call or such other events with the clients, if all of the event participants previously received the research report or other documentation that contains the required applicable disclosures and that the research analyst appearing at the event corrects and updates during the public appearance any disclosures in the research report that are inaccurate, misleading or no longer applicable;",
+                "tagged_tgt": "बशर्ते कि इसमें पासवर्ड संरक्षित वेबकास्ट, सम्मेलन कॉल या ग्राहकों के साथ ऐसी अन्य घटनाएं शामिल नहीं हैं, अगर सभी घटना प्रतिभागियों को पहले से अनुसंधान रिपोर्ट या अन्य दस्तावेज मिले, जिसमें आवश्यक लागू खुलासे शामिल हैं और यह कि सार्वजनिक उपस्थिति के दौरान प्रदर्शित होने वाले अनुसंधान विश्लेषक अनुसंधान रिपोर्ट में किसी भी खुलासे को सही और अद्यतन करते हैं जो गलत, भ्रामक या अब लागू नहीं हैं।",
+                "tgt": "बशर्ते कि इसमें पासवर्ड संरक्षित वेबकास्ट, सम्मेलन कॉल या ग्राहकों के साथ ऐसी अन्य घटनाएं शामिल नहीं हैं, अगर सभी घटना प्रतिभागियों को पहले से अनुसंधान रिपोर्ट या अन्य दस्तावेज मिले, जिसमें आवश्यक लागू खुलासे शामिल हैं और यह कि सार्वजनिक उपस्थिति के दौरान प्रदर्शित होने वाले अनुसंधान विश्लेषक अनुसंधान रिपोर्ट में किसी भी खुलासे को सही और अद्यतन करते हैं जो गलत, भ्रामक या अब लागू नहीं हैं।"
+              }
+            ]
+          },
+          {
+            "attrib": null,
+            "avg_line_height": 18,
+            "block_id": "c1d4dbbad6684bdfa63aa1fb06fa8374",
+            "block_identifier": "eae9b3a7-37de-4be0-ae18-f321d99362f4",
+            "children": [
+              {
+                "attrib": null,
+                "block_id": "688dda597a8144a9a517ea377f4d23de",
+                "children": [
+                  {
+                    "attrib": "",
+                    "block_id": "06b7ba9e60224849b6998fd19e4fb2c8",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "(r)",
+                    "text_height": 16,
+                    "text_left": 153,
+                    "text_top": 1029,
+                    "text_width": 18
+                  },
+                  {
+                    "attrib": "SUPERSCRIPT",
+                    "block_id": "268a4f05016443fdb55e34e361d2785e",
+                    "font_color": "#000000",
+                    "font_family": "TimesNewRomanPSMT",
+                    "font_size": 18,
+                    "text": "“public media” means any media source available to the general public and includes a ",
+                    "text_height": 20,
+                    "text_left": 193,
+                    "text_top": 1025,
+                    "text_width": 621
+                  }
+                ],
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "(r) “public media” means any media source available to the general public and includes a ",
+                "text_height": 20,
+                "text_left": 153,
+                "text_top": 1025,
+                "text_width": 661
+              },
+              {
+                "attrib": "",
+                "block_id": "e45fb15da5f84cadae0fefa234db6962",
+                "children": null,
+                "font_color": "#000000",
+                "font_family": "TimesNewRomanPSMT",
+                "font_size": 18,
+                "text": "radio, television, internet, web or print media;  ",
+                "text_height": 16,
+                "text_left": 193,
+                "text_top": 1053,
+                "text_width": 339
+              }
+            ],
+            "font_color": "#000000",
+            "font_family": "TimesNewRomanPSMT",
+            "font_size": 18,
+            "page_info": {
+              "page_height": 1188,
+              "page_no": 2,
+              "page_width": 918
+            },
+            "text": " (r) radio, television, internet, web or print media;  ",
+            "text_height": 44,
+            "text_left": 153,
+            "text_top": 1025,
+            "text_width": 661,
+            "tokenized_sentences": [
+              {
+                "n_id": "A_FBTTR-vpPmm-1603874841072|0-1603874885250929.json|2|c1d4dbbad6684bdfa63aa1fb06fa8374",
+                "s0_src": "(r) radio, television, internet, web or print media;",
+                "s0_tgt": "(r) रेडियो, टेलीविजन, इंटरनेट, वेब या प्रिंट मीडिया;",
+                "s_id": "d5a105eb-1cc6-4132-9d9b-3aee5c79b132",
+                "save": false,
+                "src": "(r) radio, television, internet, web or print media;",
+                "tagged_src": "(r) radio, television, internet, web or print media;",
+                "tagged_tgt": "(r) रेडियो, टेलीविजन, इंटरनेट, वेब या प्रिंट मीडिया;",
+                "tgt": "(r) रेडियो, टेलीविजन, इंटरनेट, वेब या प्रिंट मीडिया;"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "http": {
+      "status": 200
+    },
+    "ok": true,
+    "why": "request successful"
+  }
