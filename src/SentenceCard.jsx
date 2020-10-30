@@ -9,11 +9,7 @@ import TextField from '@material-ui/core/TextField'
 import Autocomplete, { createFilterOptions } from '@material-ui/lab/Autocomplete';
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 
-import Collapse from '@material-ui/core/Collapse';
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import IconButton from "@material-ui/core/IconButton";
-
-const top100Films = [
+  const top100Films = [
     { title: 'The Shawshank Redemption', year: 1994 },
     { title: 'The Godfather', year: 1972 },
     { title: 'The Godfather: Part II', year: 1974 },
@@ -114,7 +110,7 @@ const top100Films = [
     { title: 'Snatch', year: 2000 },
     { title: '3 Idiots', year: 2009 },
     { title: 'Monty Python and the Holy Grail', year: 1975 },
-];
+  ];
 
 const styles = {
     card_active: {
@@ -123,30 +119,24 @@ const styles = {
         border: 0,
         color: 'green',
         boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-    },
+      },
     card_inactive: {
         color: 'grey',
-    },
-    expand: {
-        transform: 'rotate(0deg)',
-    },
-    expandOpen: {
-        transform: 'rotate(180deg)',
     }
 }
 
 class SentenceCard extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            value: '',
-            showSuggestions: false,
-            suggestions: [],
-            cardInFocus: false,
-        };
-        this.textInput = React.createRef();
-        this.handleUserInputText = this.handleUserInputText.bind(this);
-        this.processFormSubmitPressed = this.processFormSubmitPressed.bind(this);
+        this.state                      = {
+                                            value: '', 
+                                            showSuggestions: false,
+                                            suggestions: [],
+                                            cardInFocus: false
+                                        };
+        this.textInput                  = React.createRef();
+        this.handleUserInputText        = this.handleUserInputText.bind(this);
+        this.processFormSubmitPressed   = this.processFormSubmitPressed.bind(this);
     }
 
     processFormSubmitPressed(event) {
@@ -160,7 +150,7 @@ class SentenceCard extends React.Component {
 
     handleUserInputText(event) {
         console.log(event.target.value, event.target.name)
-        this.setState({ value: event.target.value });
+        this.setState({value: event.target.value});
     }
 
     handleKeyDown = (event) => {
@@ -168,29 +158,30 @@ class SentenceCard extends React.Component {
         /**
          * Ctrl+s
          */
-        if ((event.ctrlKey || event.metaKey) && charCode === 's') {
+        if((event.ctrlKey || event.metaKey )&& charCode === 's') {
             event.preventDefault();
-            this.setState({ value: this.props.s0_tgt });
+            this.setState({value: this.props.s0_tgt});
             return false
         }
 
         var TABKEY = 9;
-        if (event.keyCode === TABKEY) {
+        if(event.keyCode === TABKEY) {
             event.preventDefault();
-            this.setState({ showSuggestions: true })
+            this.setState({showSuggestions: true})
             return false
         }
     }
 
     handleClickAway = () => {
         this.setState({
-            cardInFocus: false,
+            cardInFocus: false
         })
     };
 
     renderSourceSentence = () => {
         return (
             <div>
+                <Divider />
                 <Typography color="textSecondary" gutterBottom>
                     Source sentence
                     <br />
@@ -200,6 +191,7 @@ class SentenceCard extends React.Component {
                     {this.props.sentence.s0_src}
                     <br />
                 </Typography>
+                <Divider />
             </div>
         )
     }
@@ -224,7 +216,7 @@ class SentenceCard extends React.Component {
 
     renderUserInputArea = () => {
         return (
-            <form onSubmit={this.processFormSubmitPressed} name={this.props.sentence.s_id}>
+            <form  onSubmit={this.processFormSubmitPressed} name={this.props.sentence.s_id}>
                 <div>
                     <Autocomplete
                         getOptionSelected={(option, value) => option.name === value.name}
@@ -257,14 +249,13 @@ class SentenceCard extends React.Component {
                                 onChange={this.handleUserInputText}
                                 fullWidth
                                 multiline
-                                variant="outlined"
+                                variant="outlined" 
                                 onKeyDown={this.handleKeyDown}
                                 inputRef={this.textInput}
-                                onFocus={event => {
-                                    console.log(event.target.name)
+                                onFocus={event => {                        console.log(event.target.name)
                                 }}
                             />
-                        )} />
+                    )}/>
                 </div>
                 <br />
                 <Button type="submit" variant="outlined" color="primary" value={'SUBMIT'}>
@@ -276,54 +267,35 @@ class SentenceCard extends React.Component {
             </form>
         )
     }
-
+    
     renderSentenceSaveStatus = () => {
         if (this.props.sentence.save) {
             return (
-                <Chip size="medium" label={"sentence saved"} style={{ 'margin': 4 }} color="primary" />
+                <Chip size="medium" label={"sentence saved"} style={{'margin': 4}} color="primary"/>
             )
         }
         return (
-            <Chip size="medium" label={"sentence saved"} style={{ 'margin': 4 }} color="primary" />
+            <Chip size="medium" label={"sentence saved"} style={{'margin': 4}} color="primary"/>
         )
-    }
-
-    handleCardExpandClick = () => {
-        this.setState({ cardInFocus: !this.state.cardInFocus })
     }
 
     render() {
         return (
             <ClickAwayListener mouseEvent="onMouseDown" onClickAway={this.handleClickAway}>
-                <div key={12} style={{ padding: "1%" }}>
-                    <Card style={this.state.cardInFocus ? styles.card_active : styles.card_inactive}
-                    // onClick={(event) => {
-                    //     this.setState({ cardInFocus: true })
-                    //     // this.textInput.current.focus();
-                    // }}
-                    >
-                        <CardContent style={{ display: "flex", flexDirection: "row" }}>
-                            <div style={{ width: "90%" }}>
-                                {this.renderSourceSentence()}
-                            </div>
-                            <div style={{ width: "10%", textAlign: "right" }}>
-                                <IconButton aria-label="settings"
-                                    style={this.state.cardInFocus ? styles.expandOpen : styles.expand}
-                                     onClick={this.handleCardExpandClick}>
-                                    <ExpandMoreIcon />
-                                </IconButton>
-                            </div>
-                        </CardContent>
+                <div key={12}>
+                    <Card style={this.state.cardInFocus ? styles.card_active: styles.card_inactive} onClick={(event) => {
+                        this.setState({cardInFocus: true})
+                        this.textInput.current.focus();
+                        }}>
 
-                        <Collapse in={this.state.cardInFocus} timeout="auto" unmountOnExit>
-                            <CardContent>
-                                {this.props.sentence.save ? <div></div> : this.renderMTTargetSentence()}
-                                <br />
-                                {this.renderUserInputArea()}
-                                <br />
-                                {this.renderSentenceSaveStatus()}
-                            </CardContent>
-                        </Collapse>
+                        <CardContent>
+                            {this.renderSourceSentence()}
+                            {this.props.sentence.save ? <div></div> : this.renderMTTargetSentence()}
+                            <br />
+                            {this.renderUserInputArea()}
+                            <br />
+                            {this.renderSentenceSaveStatus()}
+                        </CardContent>
                     </Card>
                 </div>
             </ClickAwayListener>
