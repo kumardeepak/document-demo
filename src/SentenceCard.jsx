@@ -7,6 +7,7 @@ import Divider from '@material-ui/core/Divider';
 import Chip from '@material-ui/core/Chip';
 import TextField from '@material-ui/core/TextField'
 import Autocomplete, { createFilterOptions } from '@material-ui/lab/Autocomplete';
+import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 
   const top100Films = [
     { title: 'The Shawshank Redemption', year: 1994 },
@@ -113,12 +114,10 @@ import Autocomplete, { createFilterOptions } from '@material-ui/lab/Autocomplete
 
 const styles = {
     card_active: {
-        background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+        background: 'rgb(211,211,211)',
         borderRadius: 10,
         border: 0,
         color: 'green',
-        
-        padding: '0 30px',
         boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
       },
     card_inactive: {
@@ -135,6 +134,7 @@ class SentenceCard extends React.Component {
                                             suggestions: [],
                                             cardInFocus: false
                                         };
+        this.textInput                  = React.createRef();
         this.handleUserInputText        = this.handleUserInputText.bind(this);
         this.processFormSubmitPressed   = this.processFormSubmitPressed.bind(this);
     }
@@ -142,7 +142,7 @@ class SentenceCard extends React.Component {
     processFormSubmitPressed(event) {
         console.log('form button pressed', event, event.target.name)
         this.setState({
-            value: 'this.props.sentence.s0_tgt',
+            value: event.target.value,
             showSuggestions: false
         });
         event.preventDefault();
@@ -171,6 +171,12 @@ class SentenceCard extends React.Component {
             return false
         }
     }
+
+    handleClickAway = () => {
+        this.setState({
+            cardInFocus: false
+        })
+    };
 
     renderSourceSentence = () => {
         return (
@@ -245,18 +251,8 @@ class SentenceCard extends React.Component {
                                 multiline
                                 variant="outlined" 
                                 onKeyDown={this.handleKeyDown}
-                                onFocus={event => {
-                                    console.log("got focus")
-                                    this.setState({
-                                        cardInFocus: true
-                                    })
-                                }}
-                                onBlur={event => {
-                                    console.log("focus gone")
-                                    this.setState({
-                                        cardInFocus: false
-                                    })
-                                }}
+                                inputRef={this.textInput}
+                                
                             />
                     )}/>
                 </div>
@@ -284,21 +280,26 @@ class SentenceCard extends React.Component {
 
     render() {
         return (
-            <div key={12}>
-            <Card style={this.state.cardInFocus ? styles.card_active: styles.card_inactive}>
-                <CardContent>
-                    {this.renderSourceSentence()}
-                    {this.props.sentence.save ? <div></div> : this.renderMTTargetSentence()}
-                    <br />
-                    {this.renderUserInputArea()}
-                    <br />
-                    {this.renderSentenceSaveStatus()}
-                </CardContent>
-            </Card>
-            </div>
+            <ClickAwayListener mouseEvent="onMouseDown" onClickAway={this.handleClickAway}>
+                <div key={12}>
+                    <Card style={this.state.cardInFocus ? styles.card_active: styles.card_inactive} onClick={(event) => {
+                        this.setState({cardInFocus: true})
+                        this.textInput.current.focus();
+                        }}>
+
+                        <CardContent>
+                            {this.renderSourceSentence()}
+                            {this.props.sentence.save ? <div></div> : this.renderMTTargetSentence()}
+                            <br />
+                            {this.renderUserInputArea()}
+                            <br />
+                            {this.renderSentenceSaveStatus()}
+                        </CardContent>
+                    </Card>
+                </div>
+            </ClickAwayListener>
         )
     }
-
 }
 
 export default SentenceCard;
