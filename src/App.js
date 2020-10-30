@@ -3,6 +3,7 @@ import SentenceCard from './SentenceCard';
 import PageCard from './PageCard';
 import sampleData from './fetch_content_002.json'
 import {Paper, Grid, GridList, Container, Typography, Divider} from "@material-ui/core";
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const PAGE_OPS      = require("./page.operations");
 const BLOCK_OPS     = require("./block.operations");
