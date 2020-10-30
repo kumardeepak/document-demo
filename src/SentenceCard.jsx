@@ -111,13 +111,29 @@ import Autocomplete, { createFilterOptions } from '@material-ui/lab/Autocomplete
     { title: 'Monty Python and the Holy Grail', year: 1975 },
   ];
 
+const styles = {
+    card_active: {
+        background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+        borderRadius: 10,
+        border: 0,
+        color: 'green',
+        
+        padding: '0 30px',
+        boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+      },
+    card_inactive: {
+        color: 'grey',
+    }
+}
+
 class SentenceCard extends React.Component {
     constructor(props) {
         super(props);
         this.state                      = {
                                             value: '', 
                                             showSuggestions: false,
-                                            suggestions: []
+                                            suggestions: [],
+                                            cardInFocus: false
                                         };
         this.handleUserInputText        = this.handleUserInputText.bind(this);
         this.processFormSubmitPressed   = this.processFormSubmitPressed.bind(this);
@@ -230,7 +246,16 @@ class SentenceCard extends React.Component {
                                 variant="outlined" 
                                 onKeyDown={this.handleKeyDown}
                                 onFocus={event => {
-                                    console.log(event.target.name)
+                                    console.log("got focus")
+                                    this.setState({
+                                        cardInFocus: true
+                                    })
+                                }}
+                                onBlur={event => {
+                                    console.log("focus gone")
+                                    this.setState({
+                                        cardInFocus: false
+                                    })
                                 }}
                             />
                     )}/>
@@ -260,7 +285,7 @@ class SentenceCard extends React.Component {
     render() {
         return (
             <div key={12}>
-            <Card style={{color: "green"}}>
+            <Card style={this.state.cardInFocus ? styles.card_active: styles.card_inactive}>
                 <CardContent>
                     {this.renderSourceSentence()}
                     {this.props.sentence.save ? <div></div> : this.renderMTTargetSentence()}
