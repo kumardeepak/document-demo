@@ -8,6 +8,11 @@ import Chip from '@material-ui/core/Chip';
 import TextField from '@material-ui/core/TextField'
 import Autocomplete, { createFilterOptions } from '@material-ui/lab/Autocomplete';
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+
+import { highlightBlock } from './redux/actions';
+import blockReducer from './redux/reducers/blockReducer';
 
 import Collapse from '@material-ui/core/Collapse';
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
@@ -261,7 +266,8 @@ class SentenceCard extends React.Component {
                                 onKeyDown={this.handleKeyDown}
                                 inputRef={this.textInput}
                                 onFocus={event => {
-                                    console.log(event.target.name)
+                                    console.log(event.target.name, this.props.sentence.src)
+                                    this.props.highlightBlock(this.props.sentence)
                                 }}
                             />
                         )} />
@@ -333,4 +339,15 @@ class SentenceCard extends React.Component {
     }
 }
 
-export default SentenceCard;
+const mapStateToProps = state => ({
+    document_contents: state.document_contents
+});
+  
+const mapDispatchToProps = dispatch =>bindActionCreators(
+    {
+        highlightBlock
+    },
+    dispatch
+);
+  
+export default connect(mapStateToProps, mapDispatchToProps)(SentenceCard);

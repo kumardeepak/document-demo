@@ -1,10 +1,25 @@
 import React from "react";
 import {Paper, Divider} from "@material-ui/core";
-
+import InputBase from '@material-ui/core/InputBase';
+import TextField from '@material-ui/core/TextField';
 const { v4 }        = require('uuid');
 
 class PageCard extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state  = {
+                        value: ''
+                    };
+        this.handleTextChange        = this.handleTextChange.bind(this);
+       
+    }
+
+
+    /**
+     * render Sentences
+     */
     renderText = (text) => {
+        
         let style = {
             position: "relative",
             top: text.text_top     + 'px',
@@ -16,14 +31,74 @@ class PageCard extends React.Component {
             fontWeight: text.font_family.includes("Bold") && 'bold',
             textAlign: "justify",
             lineHeight: text.avg_line_height + 'px',
-            zIndex: 1
+            zIndex: text.block_id === this.state.selectedSentenceID ?100000 :2
             // textDecorationLine: this.props.sentence.underline ? "underline" : ""
         };
         return (
-            <div style={style} key={v4()}>
-                <span id={text.block_identifier}>{text.text}</span>
+           
+            <div style={style} key ={text.block_id}>
+                {text.block_id === this.state.selectedSentenceID ?
+                    this.renderTextField(text)
+                :
+                    this.renderTextSpan(text)
+                }
             </div>
         )
+    }
+
+    /**
+     * render Sentences span
+     */
+    renderTextSpan = (text) =>{
+        return(
+            <span 
+                style           = {{zIndex:1}}
+                id              = {text.block_id} 
+                onDoubleClick   = {() => {this.handleSelectedSentenceId(text.block_id, text.text)}}
+            >
+                {text.text}
+            </span>
+        )
+    }
+
+    /**
+     * sentence change
+     */
+    handleTextChange(event){
+        this.setState({text: event.target.value});
+    }
+    
+    /**
+     * render sentence edit
+     */
+    renderTextField = () => {
+        return( 
+            <TextField
+                style       = {{width:"100%", background:"white"}}
+                type        = "text" className="form-control"
+                value       = {this.state.text}
+                variant     = "outlined"
+                id          = "mui-theme-provider-outlined-input"
+                onChange    = {this.handleTextChange}
+                onBlur      = {() => {this.handleClickAway()}}
+                autoFocus   = {true}
+            />               
+        )
+    }
+
+    
+    /**
+     * render sentence edit
+     */
+    handleSelectedSentenceId = (selectedSentenceID, text) =>{
+        this.setState({selectedSentenceID , text})
+    }
+    /**
+     * click away listner
+     */
+    handleClickAway =() =>{
+        console.log(this.state.text)
+        this.setState({selectedSentenceID:''})
     }
 
     renderImage = (image) => {
