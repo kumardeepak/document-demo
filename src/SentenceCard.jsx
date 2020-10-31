@@ -107,6 +107,7 @@ class SentenceCard extends React.Component {
         if (event.keyCode === TABKEY) {
             event.preventDefault();
             this.setState({ showSuggestions: true })
+            this.makeAPICallInteractiveTranslation()
             return false
         }
     }
