@@ -3,6 +3,7 @@ export const HIGHLIGHT_SENTENCE         = 'HIGHLIGHT_SENTENCE'
 export const MERGE_SENTENCE_STARTED     = 'MERGE_SENTENCE_STARTED'
 export const MERGE_SENTENCE_INPROGRESS  = 'MERGE_SENTENCE_INPROGRESS'
 export const MERGE_SENTENCE_FINISHED    = 'MERGE_SENTENCE_FINISHED'
+export const MERGE_SENTENCE_CANCEL      = 'MERGE_SENTENCE_CANCEL'
 
 export function highlightBlock(sentence) {
     return {     
@@ -23,11 +24,13 @@ export function highlightSentence(block_id, sentence) {
     }
 }
 
-export function startMergeSentence(sentence) {
+/**
+ * sentence merge related user action
+ */
+export function startMergeSentence() {
     return {
         type: MERGE_SENTENCE_STARTED,
         payload: {
-            sentence: sentence
         }
     }
 }
@@ -41,11 +44,19 @@ export function inProgressMergeSentence(sentence) {
     }
 }
 
-export function finishMergeSentence(sentence) {
+export function finishMergeSentence() {
     return {
         type: MERGE_SENTENCE_FINISHED,
         payload: {
-            sentence: sentence
+            
+        }
+    }
+}
+
+export function cancelMergeSentence() {
+    return {
+        type: MERGE_SENTENCE_CANCEL,
+        payload: {
         }
     }
 }

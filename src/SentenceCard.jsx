@@ -13,7 +13,7 @@ import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 
-import { highlightBlock, startMergeSentence, inProgressMergeSentence, finishMergeSentence } from './redux/actions';
+import { highlightBlock, startMergeSentence, inProgressMergeSentence, finishMergeSentence, cancelMergeSentence } from './redux/actions';
 import blockReducer from './redux/reducers/blockReducer';
 
 import Collapse from '@material-ui/core/Collapse';
@@ -57,12 +57,15 @@ class SentenceCard extends React.Component {
             suggestions: [],
             cardInFocus: false,
             cardChecked: false,
-            mergeButtonClicked: false
+            isModeMerge: false
         };
-        this.textInput                  = React.createRef();
-        this.handleUserInputText        = this.handleUserInputText.bind(this);
-        this.processSaveButtonClicked   = this.processSaveButtonClicked.bind(this);
-        this.processMergeButtonClicked  = this.processMergeButtonClicked.bind(this);
+        this.textInput                          = React.createRef();
+        this.handleUserInputText                = this.handleUserInputText.bind(this);
+        
+        this.processSaveButtonClicked           = this.processSaveButtonClicked.bind(this);
+        this.processMergeButtonClicked          = this.processMergeButtonClicked.bind(this);
+        this.processMergeNowButtonClicked       = this.processMergeNowButtonClicked.bind(this);
+        this.processMergeCancelButtonClicked    = this.processMergeCancelButtonClicked.bind(this);
     }
 
     /**
@@ -85,14 +88,31 @@ class SentenceCard extends React.Component {
         }
     }
 
+    /**
+     * Merge mode user action handlers
+     */
     processMergeButtonClicked() {
         this.setState({
-            mergeButtonClicked: true
+            isModeMerge: true
         })
-        this.props.startMergeSentence(this.props.sentence)
+        this.props.startMergeSentence()
     }
 
-    processCardSelectionToggle = () => {
+    processMergeNowButtonClicked() {
+        this.setState({
+            isModeMerge: false,
+        })
+        this.props.finishMergeSentence()
+    }
+
+    processMergeCancelButtonClicked() {
+        this.setState({
+            isModeMerge: false,
+        })
+        this.props.cancelMergeSentence()
+    }
+
+    processMergeSelectionToggle = () => {
         this.props.inProgressMergeSentence(this.props.sentence)
         this.setState({
             cardChecked: !this.state.cardChecked
@@ -132,7 +152,7 @@ class SentenceCard extends React.Component {
          * Unroll the card only in normal operation
          * - in merge mode do not collapse the current card.
          */
-        if (!this.state.mergeButtonClicked) {
+        if (!this.state.isModeMerge) {
             this.setState({
                 cardInFocus: false,
             })
@@ -223,13 +243,33 @@ class SentenceCard extends React.Component {
                         )} />
                 </div>
                 <br />
+            </form>
+        )
+    }
+
+    renderNormaModeButtons = () => {
+        return (
+            <div>
                 <Button onClick={this.processSaveButtonClicked} variant="outlined" color="primary">
                     SAVE
                 </Button>
                 <Button onClick={this.processMergeButtonClicked} variant="outlined" color="primary">
                     MERGE
                 </Button>
-            </form>
+            </div>
+        )
+    }
+
+    renderMergeModeButtons = () => {
+        return (
+            <div>
+                <Button onClick={this.processMergeNowButtonClicked} variant="outlined" color="primary">
+                    Merge Now
+                </Button>
+                <Button onClick={this.processMergeCancelButtonClicked} variant="outlined" color="primary">
+                    Merge Cancel
+                </Button>
+            </div>
         )
     }
 
@@ -249,7 +289,7 @@ class SentenceCard extends React.Component {
             return (
                 <Checkbox
                     checked={this.state.cardChecked}
-                    onChange={this.processCardSelectionToggle}
+                    onChange={this.processMergeSelectionToggle}
                     inputProps={{ 'aria-label': 'secondary checkbox' }}
                 />
             )
@@ -264,6 +304,7 @@ class SentenceCard extends React.Component {
     }
 
     render() {
+
         return (
             <ClickAwayListener mouseEvent="onMouseDown" onClickAway={this.handleClickAway}>
                 <div key={12} style={{ padding: "1%" }}>
@@ -289,6 +330,8 @@ class SentenceCard extends React.Component {
                                 <br />
                                 {this.renderUserInputArea()}
                                 <br />
+                                {this.state.isModeMerge ? this.renderMergeModeButtons() : this.renderNormaModeButtons()}
+                                <br />
                                 {this.renderSentenceSaveStatus()}
                             </CardContent>
                         </Collapse>
@@ -309,7 +352,8 @@ const mapDispatchToProps = dispatch =>bindActionCreators(
         highlightBlock, 
         startMergeSentence, 
         inProgressMergeSentence, 
-        finishMergeSentence 
+        finishMergeSentence,
+        cancelMergeSentence
     },
     dispatch
 );
