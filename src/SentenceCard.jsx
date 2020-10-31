@@ -140,6 +140,14 @@ const styles = {
     }
 }
 
+function sleep(delay = 0) {
+    return new Promise((resolve) => {
+      setTimeout(resolve, delay);
+    });
+}
+
+const filterOptions = (options, { inputValue }) => options;
+
 class SentenceCard extends React.Component {
     constructor(props) {
         super(props);
@@ -152,6 +160,21 @@ class SentenceCard extends React.Component {
         this.textInput = React.createRef();
         this.handleUserInputText = this.handleUserInputText.bind(this);
         this.processFormSubmitPressed = this.processFormSubmitPressed.bind(this);
+    }
+
+    /**
+     * api calls
+     */
+
+    async makeAPICallInteractiveTranslation() {
+        const response = await fetch('https://country.register.gov.uk/records.json?page-size=5000');
+        await sleep(1e3); // For demo purposes.
+        const countries = await response.json();
+        console.log(countries)
+        this.setState({
+            suggestions: Object.keys(countries).map((key) => countries[key].item[0])
+        })
+
     }
 
     processFormSubmitPressed(event) {
@@ -179,6 +202,9 @@ class SentenceCard extends React.Component {
             return false
         }
 
+        /**
+         * user requesting for suggestions
+         */
         var TABKEY = 9;
         if (event.keyCode === TABKEY) {
             event.preventDefault();
@@ -232,8 +258,16 @@ class SentenceCard extends React.Component {
             <form onSubmit={this.processFormSubmitPressed} name={this.props.sentence.s_id}>
                 <div>
                     <Autocomplete
-                        getOptionSelected={(option, value) => option.name === value.name}
-                        getOptionLabel={(option) => option.name}
+                        filterOptions={filterOptions}
+
+                        getOptionLabel={(option) => {
+                            return option.name
+                        }}
+
+                        renderOption={(option, index) => {
+                            return (<Typography noWrap>{option.name}</Typography>)
+                        }}
+
                         options={this.state.suggestions}
                         inputValue={this.state.value}
                         fullWidth
@@ -241,9 +275,9 @@ class SentenceCard extends React.Component {
                         loading={true}
                         loadingText={'Loading ...'}
                         onChange={(event, newValue) => {
-                            console.log('onChange of autocomplete is fired')
+                            console.log('onChange of autocomplete is fired: ', newValue)
                             this.setState({
-                                value: event.target.value,
+                                value: this.state.value + ' ' + newValue.name,
                                 showSuggestions: false
                             });
                             // filterOptions(event, newValue);
