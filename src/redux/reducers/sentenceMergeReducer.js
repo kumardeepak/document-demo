@@ -7,7 +7,9 @@ export default function sentenceMergeReducer(state={started: false, progress: fa
           return {
               ...state,
               started: true,
-              progress: true
+              progress: true,
+              finished: false,
+              cancel: false
           }
         }
         case MERGE_SENTENCE_INPROGRESS: {
