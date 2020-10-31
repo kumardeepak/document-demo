@@ -68,6 +68,14 @@ class SentenceCard extends React.Component {
         this.processMergeCancelButtonClicked    = this.processMergeCancelButtonClicked.bind(this);
     }
 
+    componentDidUpdate(prevProps) {
+        if ((prevProps.sentence_merge_operation.finished !== this.props.sentence_merge_operation.finished) ) {
+            this.setState({
+                cardChecked: false
+            })
+        }
+      }
+
     /**
      * api calls
      */
@@ -152,9 +160,16 @@ class SentenceCard extends React.Component {
          * Unroll the card only in normal operation
          * - in merge mode do not collapse the current card.
          */
+        if (this.state.cardInFocus && this.state.isModeMerge) {
+            this.props.cancelMergeSentence()
+            this.setState({
+                isModeMerge: false,
+                cardInFocus: false,
+            })
+        }
         if (!this.state.isModeMerge) {
             this.setState({
-                cardInFocus: false,
+                cardInFocus: false
             })
         }
     };
