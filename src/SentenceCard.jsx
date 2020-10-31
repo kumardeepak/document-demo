@@ -42,7 +42,7 @@ const styles = {
 
 function sleep(delay = 0) {
     return new Promise((resolve) => {
-      setTimeout(resolve, delay);
+        setTimeout(resolve, delay);
     });
 }
 
@@ -59,20 +59,30 @@ class SentenceCard extends React.Component {
             cardChecked: false,
             isModeMerge: false
         };
-        this.textInput                          = React.createRef();
-        this.handleUserInputText                = this.handleUserInputText.bind(this);
-        
-        this.processSaveButtonClicked           = this.processSaveButtonClicked.bind(this);
-        this.processMergeButtonClicked          = this.processMergeButtonClicked.bind(this);
-        this.processMergeNowButtonClicked       = this.processMergeNowButtonClicked.bind(this);
-        this.processMergeCancelButtonClicked    = this.processMergeCancelButtonClicked.bind(this);
+        this.textInput = React.createRef();
+        this.handleUserInputText = this.handleUserInputText.bind(this);
+
+        this.processSaveButtonClicked = this.processSaveButtonClicked.bind(this);
+        this.processMergeButtonClicked = this.processMergeButtonClicked.bind(this);
+        this.processMergeNowButtonClicked = this.processMergeNowButtonClicked.bind(this);
+        this.processMergeCancelButtonClicked = this.processMergeCancelButtonClicked.bind(this);
+    }
+
+    componentDidUpdate(prevProps) {
+        if (prevProps.sentence_highlight !== this.props.sentence_highlight) {
+
+            if (this.props.sentence_highlight && this.props.sentence_highlight.sentence_id === this.props.sentence.s_id) {
+                this.setState({ cardInFocus: !this.state.cardInFocus })
+            }
+        }
+
     }
 
     /**
      * api calls
      */
     async makeAPICallInteractiveTranslation() {
-        const response  = await fetch('https://country.register.gov.uk/records.json?page-size=5000');
+        const response = await fetch('https://country.register.gov.uk/records.json?page-size=5000');
         await sleep(1e3);
         const countries = await response.json();
         this.setState({
@@ -238,7 +248,7 @@ class SentenceCard extends React.Component {
                                 onKeyDown={this.handleKeyDown}
                                 inputRef={this.textInput}
                                 onFocus={event => {
-                                    this.props.highlightBlock(this.props.sentence)
+                                    // this.props.highlightBlock(this.props.sentence)
                                 }}
                             />
                         )} />
@@ -295,12 +305,12 @@ class SentenceCard extends React.Component {
                 />
             )
         }
-        return(<div></div>)
+        return (<div></div>)
     }
 
     handleCardExpandClick = () => {
         this.setState({ cardInFocus: !this.state.cardInFocus })
-        
+        this.props.highlightBlock(this.props.sentence)
         this.textInput && this.textInput.current && this.textInput.current.focus();
     }
 
@@ -317,7 +327,7 @@ class SentenceCard extends React.Component {
                             <div style={{ width: "10%", textAlign: "right" }}>
                                 <IconButton aria-label="settings"
                                     style={this.state.cardInFocus ? styles.expandOpen : styles.expand}
-                                     onClick={this.handleCardExpandClick}>
+                                    onClick={this.handleCardExpandClick}>
                                     <ExpandMoreIcon />
                                 </IconButton>
                             </div>
@@ -348,17 +358,17 @@ const mapStateToProps = state => ({
     sentence_merge_operation: state.sentence_merge_operation,
     sentence_highlight: state.sentence_highlight
 });
-  
-const mapDispatchToProps = dispatch =>bindActionCreators(
+
+const mapDispatchToProps = dispatch => bindActionCreators(
     {
-        highlightBlock, 
-        startMergeSentence, 
-        inProgressMergeSentence, 
+        highlightBlock,
+        startMergeSentence,
+        inProgressMergeSentence,
         finishMergeSentence,
         cancelMergeSentence,
         clearHighlighBlock
     },
     dispatch
 );
-  
+
 export default connect(mapStateToProps, mapDispatchToProps)(SentenceCard);
