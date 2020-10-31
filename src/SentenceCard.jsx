@@ -7,11 +7,13 @@ import Divider from '@material-ui/core/Divider';
 import Chip from '@material-ui/core/Chip';
 import TextField from '@material-ui/core/TextField'
 import Autocomplete, { createFilterOptions } from '@material-ui/lab/Autocomplete';
+import Checkbox from '@material-ui/core/Checkbox';
+
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 
-import { highlightBlock, clearHighlighBlock } from './redux/actions';
+import { highlightBlock, startMergeSentence, inProgressMergeSentence, finishMergeSentence, cancelMergeSentence, clearHighlighBlock } from './redux/actions';
 import blockReducer from './redux/reducers/blockReducer';
 
 import Collapse from '@material-ui/core/Collapse';
@@ -54,38 +56,70 @@ class SentenceCard extends React.Component {
             showSuggestions: false,
             suggestions: [],
             cardInFocus: false,
+            cardChecked: false,
+            isModeMerge: false
         };
-        this.textInput = React.createRef();
-        this.handleUserInputText = this.handleUserInputText.bind(this);
-        this.processFormSubmitPressed = this.processFormSubmitPressed.bind(this);
+        this.textInput                          = React.createRef();
+        this.handleUserInputText                = this.handleUserInputText.bind(this);
+        
+        this.processSaveButtonClicked           = this.processSaveButtonClicked.bind(this);
+        this.processMergeButtonClicked          = this.processMergeButtonClicked.bind(this);
+        this.processMergeNowButtonClicked       = this.processMergeNowButtonClicked.bind(this);
+        this.processMergeCancelButtonClicked    = this.processMergeCancelButtonClicked.bind(this);
     }
 
     /**
      * api calls
      */
-
     async makeAPICallInteractiveTranslation() {
-        const response = await fetch('https://country.register.gov.uk/records.json?page-size=5000');
-        await sleep(1e3); // For demo purposes.
+        const response  = await fetch('https://country.register.gov.uk/records.json?page-size=5000');
+        await sleep(1e3);
         const countries = await response.json();
-        console.log(countries)
         this.setState({
             suggestions: Object.keys(countries).map((key) => countries[key].item[0])
         })
-
     }
 
-    processFormSubmitPressed(event) {
-        console.log('form button pressed', event, event.target.name)
+    processSaveButtonClicked() {
+        if (this.state.value === '' && this.props.sentence.s0_tgt !== '') {
+            this.setState({
+                value: this.props.sentence.s0_tgt
+            })
+        }
+    }
+
+    /**
+     * Merge mode user action handlers
+     */
+    processMergeButtonClicked() {
         this.setState({
-            value: event.target.value,
-            showSuggestions: false
-        });
-        event.preventDefault();
+            isModeMerge: true
+        })
+        this.props.startMergeSentence()
+    }
+
+    processMergeNowButtonClicked() {
+        this.setState({
+            isModeMerge: false,
+        })
+        this.props.finishMergeSentence()
+    }
+
+    processMergeCancelButtonClicked() {
+        this.setState({
+            isModeMerge: false,
+        })
+        this.props.cancelMergeSentence()
+    }
+
+    processMergeSelectionToggle = () => {
+        this.props.inProgressMergeSentence(this.props.sentence)
+        this.setState({
+            cardChecked: !this.state.cardChecked
+        })
     }
 
     handleUserInputText(event) {
-        console.log(event.target.value, event.target.name)
         this.setState({ value: event.target.value });
     }
 
@@ -95,8 +129,9 @@ class SentenceCard extends React.Component {
          * Ctrl+s
          */
         if ((event.ctrlKey || event.metaKey) && charCode === 's') {
+            console.log('Ctrl+S pressed, moving hardcode data')
+            this.setState({ value: this.props.sentence.s0_tgt });
             event.preventDefault();
-            this.setState({ value: this.props.s0_tgt });
             return false
         }
 
@@ -105,18 +140,24 @@ class SentenceCard extends React.Component {
          */
         var TABKEY = 9;
         if (event.keyCode === TABKEY) {
-            event.preventDefault();
             this.setState({ showSuggestions: true })
             this.makeAPICallInteractiveTranslation()
+            event.preventDefault();
             return false
         }
     }
 
     handleClickAway = () => {
-        this.setState({
-            cardInFocus: false,
-        })
-        this.props.clearHighlighBlock()
+        /**
+         * Unroll the card only in normal operation
+         * - in merge mode do not collapse the current card.
+         */
+        if (!this.state.isModeMerge) {
+            this.setState({
+                cardInFocus: false,
+            })
+            this.props.clearHighlighBlock()
+        }
     };
 
     renderSourceSentence = () => {
@@ -155,20 +196,18 @@ class SentenceCard extends React.Component {
 
     renderUserInputArea = () => {
         return (
-            <form onSubmit={this.processFormSubmitPressed} name={this.props.sentence.s_id}>
+            <form name={this.props.sentence.s_id}>
                 <div>
                     <Autocomplete
                         filterOptions={filterOptions}
-
                         getOptionLabel={(option) => {
                             return option.name
                         }}
-
                         renderOption={(option, index) => {
                             return (<Typography noWrap>{option.name}</Typography>)
                         }}
-
                         options={this.state.suggestions}
+
                         inputValue={this.state.value}
                         fullWidth
                         open={this.state.showSuggestions}
@@ -180,7 +219,6 @@ class SentenceCard extends React.Component {
                                 value: this.state.value + ' ' + newValue.name,
                                 showSuggestions: false
                             });
-                            // filterOptions(event, newValue);
                         }}
                         onClose={(event, newValue) => {
                             this.setState({
@@ -200,20 +238,39 @@ class SentenceCard extends React.Component {
                                 onKeyDown={this.handleKeyDown}
                                 inputRef={this.textInput}
                                 onFocus={event => {
-                                    console.log(event.target.name, this.props.sentence.src)
                                     this.props.highlightBlock(this.props.sentence)
                                 }}
                             />
                         )} />
                 </div>
                 <br />
-                <Button type="submit" variant="outlined" color="primary" value={'SUBMIT'}>
+            </form>
+        )
+    }
+
+    renderNormaModeButtons = () => {
+        return (
+            <div>
+                <Button onClick={this.processSaveButtonClicked} variant="outlined" color="primary">
                     SAVE
                 </Button>
-                <Button type="submit" variant="outlined" color="primary">
+                <Button onClick={this.processMergeButtonClicked} variant="outlined" color="primary">
                     MERGE
                 </Button>
-            </form>
+            </div>
+        )
+    }
+
+    renderMergeModeButtons = () => {
+        return (
+            <div>
+                <Button onClick={this.processMergeNowButtonClicked} variant="outlined" color="primary">
+                    Merge Now
+                </Button>
+                <Button onClick={this.processMergeCancelButtonClicked} variant="outlined" color="primary">
+                    Merge Cancel
+                </Button>
+            </div>
         )
     }
 
@@ -228,6 +285,19 @@ class SentenceCard extends React.Component {
         )
     }
 
+    renderCardSelectedForMerge = () => {
+        if (this.props.sentence_merge_operation.progress) {
+            return (
+                <Checkbox
+                    checked={this.state.cardChecked}
+                    onChange={this.processMergeSelectionToggle}
+                    inputProps={{ 'aria-label': 'secondary checkbox' }}
+                />
+            )
+        }
+        return(<div></div>)
+    }
+
     handleCardExpandClick = () => {
         this.setState({ cardInFocus: !this.state.cardInFocus })
         
@@ -235,15 +305,11 @@ class SentenceCard extends React.Component {
     }
 
     render() {
+
         return (
             <ClickAwayListener mouseEvent="onMouseDown" onClickAway={this.handleClickAway}>
                 <div key={12} style={{ padding: "1%" }}>
-                    <Card style={this.state.cardInFocus ? styles.card_active : styles.card_inactive}
-                    // onClick={(event) => {
-                    //     this.setState({ cardInFocus: true })
-                    //     // this.textInput.current.focus();
-                    // }}
-                    >
+                    <Card style={this.state.cardInFocus ? styles.card_active : styles.card_inactive}>
                         <CardContent style={{ display: "flex", flexDirection: "row" }}>
                             <div style={{ width: "90%" }}>
                                 {this.renderSourceSentence()}
@@ -255,6 +321,8 @@ class SentenceCard extends React.Component {
                                     <ExpandMoreIcon />
                                 </IconButton>
                             </div>
+                            {this.renderCardSelectedForMerge()}
+
                         </CardContent>
 
                         <Collapse in={this.state.cardInFocus} timeout="auto" unmountOnExit>
@@ -262,6 +330,8 @@ class SentenceCard extends React.Component {
                                 {this.props.sentence.save ? <div></div> : this.renderMTTargetSentence()}
                                 <br />
                                 {this.renderUserInputArea()}
+                                <br />
+                                {this.state.isModeMerge ? this.renderMergeModeButtons() : this.renderNormaModeButtons()}
                                 <br />
                                 {this.renderSentenceSaveStatus()}
                             </CardContent>
@@ -274,14 +344,18 @@ class SentenceCard extends React.Component {
 }
 
 const mapStateToProps = state => ({
+    document_contents: state.document_contents,
+    sentence_merge_operation: state.sentence_merge_operation,
     sentence_highlight: state.sentence_highlight
-    
-    // document_contents: state.document_contents
 });
   
 const mapDispatchToProps = dispatch =>bindActionCreators(
     {
-        highlightBlock,
+        highlightBlock, 
+        startMergeSentence, 
+        inProgressMergeSentence, 
+        finishMergeSentence,
+        cancelMergeSentence,
         clearHighlighBlock
     },
     dispatch
