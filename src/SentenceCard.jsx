@@ -78,14 +78,13 @@ class SentenceCard extends React.Component {
     processFormSubmitPressed(event) {
         console.log('form button pressed', event, event.target.name)
         this.setState({
-            value: event.target.value,
+            value: event.target.value + ' ' + "TESTING",
             showSuggestions: false
         });
         event.preventDefault();
     }
 
     handleUserInputText(event) {
-        console.log(event.target.value, event.target.name)
         this.setState({ value: event.target.value });
     }
 
@@ -95,8 +94,9 @@ class SentenceCard extends React.Component {
          * Ctrl+s
          */
         if ((event.ctrlKey || event.metaKey) && charCode === 's') {
+            console.log('Ctrl+S pressed, moving hardcode data')
+            this.setState({ value: this.props.sentence.s0_tgt });
             event.preventDefault();
-            this.setState({ value: this.props.s0_tgt });
             return false
         }
 
@@ -105,9 +105,9 @@ class SentenceCard extends React.Component {
          */
         var TABKEY = 9;
         if (event.keyCode === TABKEY) {
-            event.preventDefault();
             this.setState({ showSuggestions: true })
             this.makeAPICallInteractiveTranslation()
+            event.preventDefault();
             return false
         }
     }
@@ -158,16 +158,14 @@ class SentenceCard extends React.Component {
                 <div>
                     <Autocomplete
                         filterOptions={filterOptions}
-
                         getOptionLabel={(option) => {
                             return option.name
                         }}
-
                         renderOption={(option, index) => {
                             return (<Typography noWrap>{option.name}</Typography>)
                         }}
-
                         options={this.state.suggestions}
+
                         inputValue={this.state.value}
                         fullWidth
                         open={this.state.showSuggestions}
@@ -179,7 +177,6 @@ class SentenceCard extends React.Component {
                                 value: this.state.value + ' ' + newValue.name,
                                 showSuggestions: false
                             });
-                            // filterOptions(event, newValue);
                         }}
                         onClose={(event, newValue) => {
                             this.setState({
@@ -199,7 +196,6 @@ class SentenceCard extends React.Component {
                                 onKeyDown={this.handleKeyDown}
                                 inputRef={this.textInput}
                                 onFocus={event => {
-                                    console.log(event.target.name, this.props.sentence.src)
                                     this.props.highlightBlock(this.props.sentence)
                                 }}
                             />
