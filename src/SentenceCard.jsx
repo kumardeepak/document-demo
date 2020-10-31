@@ -13,7 +13,7 @@ import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 
-import { highlightBlock, startMergeSentence, inProgressMergeSentence, finishMergeSentence, cancelMergeSentence } from './redux/actions';
+import { highlightBlock, startMergeSentence, inProgressMergeSentence, finishMergeSentence, cancelMergeSentence, clearHighlighBlock } from './redux/actions';
 import blockReducer from './redux/reducers/blockReducer';
 
 import Collapse from '@material-ui/core/Collapse';
@@ -166,6 +166,7 @@ class SentenceCard extends React.Component {
                 isModeMerge: false,
                 cardInFocus: false,
             })
+            this.props.clearHighlighBlock()
         }
         if (!this.state.isModeMerge) {
             this.setState({
@@ -359,7 +360,8 @@ class SentenceCard extends React.Component {
 
 const mapStateToProps = state => ({
     document_contents: state.document_contents,
-    sentence_merge_operation: state.sentence_merge_operation
+    sentence_merge_operation: state.sentence_merge_operation,
+    sentence_highlight: state.sentence_highlight
 });
   
 const mapDispatchToProps = dispatch =>bindActionCreators(
@@ -368,7 +370,8 @@ const mapDispatchToProps = dispatch =>bindActionCreators(
         startMergeSentence, 
         inProgressMergeSentence, 
         finishMergeSentence,
-        cancelMergeSentence
+        cancelMergeSentence,
+        clearHighlighBlock
     },
     dispatch
 );

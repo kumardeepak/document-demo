@@ -4,6 +4,7 @@ export const MERGE_SENTENCE_STARTED     = 'MERGE_SENTENCE_STARTED'
 export const MERGE_SENTENCE_INPROGRESS  = 'MERGE_SENTENCE_INPROGRESS'
 export const MERGE_SENTENCE_FINISHED    = 'MERGE_SENTENCE_FINISHED'
 export const MERGE_SENTENCE_CANCEL      = 'MERGE_SENTENCE_CANCEL'
+export const CLEAR_HIGHLIGHT_BLOCK      = 'CLEAR_HIGHLIGHT_BLOCK'
 
 export function highlightBlock(sentence) {
     return {     
@@ -14,12 +15,19 @@ export function highlightBlock(sentence) {
     }
 }
 
-export function highlightSentence(block_id, sentence) {
+export function highlightSentence(block) {
     return {
         type: HIGHLIGHT_SENTENCE,
         payload: {
-            block_id: block_id,
-            sentence: sentence
+            block: block
+        }
+    }
+}
+
+export function clearHighlighBlock() {
+    return {
+        type: CLEAR_HIGHLIGHT_BLOCK,
+        payload: {
         }
     }
 }
