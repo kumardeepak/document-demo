@@ -19,7 +19,6 @@ class PageCard extends React.Component {
      * render Sentences
      */
     renderText = (text) => {
-        
         let style = {
             position: "relative",
             top: text.text_top     + 'px',
@@ -36,7 +35,7 @@ class PageCard extends React.Component {
         };
         return (
            
-            <div style={style} key ={text.block_id}>
+            <div style={style} key ={text.block_id} ref ={text.block_id}>
                 {text.block_id === this.state.selectedSentenceID ?
                     this.renderTextField(text)
                 :
@@ -86,6 +85,14 @@ class PageCard extends React.Component {
         )
     }
 
+    handleSourceScroll(s_id) {
+
+        this.refs["3d23363e36a049d2908fc6302a2d6a50"] && this.refs["3d23363e36a049d2908fc6302a2d6a50"].scrollIntoView({
+            behavior: "smooth",
+            inline: "center",
+            block: "center"
+          });
+    }
     
     /**
      * render sentence edit
