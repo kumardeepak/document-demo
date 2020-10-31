@@ -47,19 +47,11 @@ class App extends React.Component {
     return (
       <Grid item xs={12} sm={6} lg={6} xl={6}>
         <Paper style={{ overflow: 'scroll', height: window.innerHeight }} >
-          {pages.map(page => page['translated_texts'].map(sentence => <div ref={sentence.s_id}><SentenceCard key={v4()} sentence={sentence} /></div>))}
+          {pages.map(page => page['translated_texts'].map(sentence => <SentenceCard key={v4()} sentence={sentence} />))}
         </Paper>
       </Grid>
 
     )
-  }
-
-  handleTargetScroll(s_id) {
-    this.refs["a2325401-efab-470a-a3f3-92423b684db8"].scrollIntoView({
-      behavior: "smooth",
-      inline: "center",
-      block: "center"
-    });
   }
 
   /**
