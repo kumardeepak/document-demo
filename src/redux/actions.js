@@ -1,5 +1,6 @@
 export const HIGHLIGHT_BLOCK    = 'HIGHLIGHT_BLOCK'
 export const HIGHLIGHT_SENTENCE = 'HIGHLIGHT_SENTENCE'
+export const CLEAR_HIGHLIGHT_BLOCK = 'CLEAR_HIGHLIGHT_BLOCK'
 
 export function highlightBlock(sentence) {
     return {     
@@ -10,12 +11,19 @@ export function highlightBlock(sentence) {
     }
 }
 
-export function highlightSentence(block_id, sentence) {
+export function highlightSentence(block) {
     return {
         type: HIGHLIGHT_SENTENCE,
         payload: {
-            block_id: block_id,
-            sentence: sentence
+            block: block
+        }
+    }
+}
+
+export function clearHighlighBlock() {
+    return {
+        type: CLEAR_HIGHLIGHT_BLOCK,
+        payload: {
         }
     }
 }

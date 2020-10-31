@@ -11,7 +11,7 @@ import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 
-import { highlightBlock } from './redux/actions';
+import { highlightBlock, clearHighlighBlock } from './redux/actions';
 import blockReducer from './redux/reducers/blockReducer';
 
 import Collapse from '@material-ui/core/Collapse';
@@ -116,6 +116,7 @@ class SentenceCard extends React.Component {
         this.setState({
             cardInFocus: false,
         })
+        this.props.clearHighlighBlock()
     };
 
     renderSourceSentence = () => {
@@ -273,12 +274,15 @@ class SentenceCard extends React.Component {
 }
 
 const mapStateToProps = state => ({
-    document_contents: state.document_contents
+    sentence_highlight: state.sentence_highlight
+    
+    // document_contents: state.document_contents
 });
   
 const mapDispatchToProps = dispatch =>bindActionCreators(
     {
-        highlightBlock
+        highlightBlock,
+        clearHighlighBlock
     },
     dispatch
 );
