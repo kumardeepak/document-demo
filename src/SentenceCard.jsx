@@ -160,14 +160,6 @@ class SentenceCard extends React.Component {
          * Unroll the card only in normal operation
          * - in merge mode do not collapse the current card.
          */
-        if (this.state.cardInFocus && this.state.isModeMerge) {
-            this.props.cancelMergeSentence()
-            this.setState({
-                isModeMerge: false,
-                cardInFocus: false,
-            })
-            this.props.clearHighlighBlock()
-        }
         if (!this.state.isModeMerge) {
             this.setState({
                 cardInFocus: false
