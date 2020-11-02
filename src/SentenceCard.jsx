@@ -69,16 +69,6 @@ class SentenceCard extends React.Component {
     }
 
     componentDidUpdate(prevProps) {
-        if (prevProps.sentence_highlight !== this.props.sentence_highlight) {
-
-            if (this.props.sentence_highlight && this.props.sentence_highlight.sentence_id === this.props.sentence.s_id) {
-                this.setState({ cardInFocus: !this.state.cardInFocus })
-            }
-        }
-
-    }
-
-    componentDidUpdate(prevProps) {
         if ((prevProps.sentence_merge_operation.finished !== this.props.sentence_merge_operation.finished) ) {
             this.setState({
                 cardChecked: false
@@ -173,10 +163,8 @@ class SentenceCard extends React.Component {
         if (this.state.cardInFocus && this.state.isModeMerge) {
             this.props.cancelMergeSentence()
             this.setState({
-                isModeMerge: false,
-                cardInFocus: false,
+                cardInFocus: false
             })
-            this.props.clearHighlighBlock()
         }
         if (!this.state.isModeMerge) {
             this.setState({

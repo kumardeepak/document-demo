@@ -2,8 +2,8 @@ import React from 'react';
 import SentenceCard from './SentenceCard';
 import PageCard from './PageCard';
 import sampleData from './fetch_content_002.json'
-import { Paper, Grid, GridList, Container, Typography, Divider } from "@material-ui/core";
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import {Paper, Grid, CircularProgress} from "@material-ui/core";
+import InfiniteScroll from "react-infinite-scroll-component";
 
 const PAGE_OPS = require("./page.operations");
 const BLOCK_OPS = require("./block.operations");
@@ -15,21 +15,31 @@ class App extends React.Component {
   }
 
 
+  fetchDocumentPages = () => {
+    console.log('fetching more pages')
+  }
+
   /**
    * render Document pages
    */
   renderDocumentPages = () => {
     let pages = PAGE_OPS.get_pages_children_information(sampleData.data);
     if (pages.length < 1) {
-      return (
-        <div></div>
+      return(
+          <div></div>
       )
     }
-    return (
+    return(
       <Grid item xs={12} sm={6} lg={6} xl={6}>
-        <Paper style={{ overflow: 'scroll', height: window.innerHeight }}>
+        <InfiniteScroll height={1200}
+          next={this.fetchDocumentPages}
+          hasMore={(sampleData.count > sampleData.data.length) ? true : false }
+          dataLength={pages.length}
+          loader={<div style={{ textAlign: "center" }}> <CircularProgress size={20} style={{zIndex: 1000}}/></div>}
+          endMessage={ <div style={{ textAlign: "center" }}><b>You have seen it all</b></div> }
+        >
           {pages.map(page => <PageCard key={v4()} page={page} />)}
-        </Paper>
+        </InfiniteScroll>
       </Grid>
     )
   }
@@ -40,17 +50,23 @@ class App extends React.Component {
   renderSentences = () => {
     let pages = PAGE_OPS.get_pages_children_information(sampleData.data);
     if (pages.length < 1) {
-      return (
-        <div></div>
+      return(
+          <div></div>
       )
     }
     return (
-      <Grid item xs={12} sm={6} lg={6} xl={6}>
-        <Paper style={{ overflow: 'scroll', height: window.innerHeight }} >
-          {pages.map(page => page['translated_texts'].map(sentence => <SentenceCard key={v4()} sentence={sentence} />))}
-        </Paper>
-      </Grid>
-
+        <Grid item xs={12} sm={6} lg={6} xl={6}>
+          <InfiniteScroll height={1200}
+              next={this.fetchDocumentPages}
+              hasMore={(sampleData.count > sampleData.data.length) ? true : false }
+              dataLength={pages.length}
+              loader={<div style={{ textAlign: "center" }}> <CircularProgress size={20} style={{zIndex: 1000}}/></div>}
+              endMessage={ <div style={{ textAlign: "center" }}><b>You have seen it all</b></div> }
+          >
+            {pages.map(page => page['translated_texts'].map(sentence => <SentenceCard key={v4()} sentence={sentence}/>) )}
+          </InfiniteScroll>
+        </Grid>
+      
     )
   }
 
@@ -59,17 +75,17 @@ class App extends React.Component {
    */
 
   render() {
-    return (
+      return (
       <div>
-        <Grid container spacing={2} style={{ padding: "50px 24px 0px 24px" }}>
+          <Grid container spacing={2} style={{ padding: "50px 24px 0px 24px" }}>
+            
+              {this.renderDocumentPages()}
+              {this.renderSentences()}
 
-          {this.renderDocumentPages()}
-          {this.renderSentences()}
-
-        </Grid>
+          </Grid>
       </div>
-    )
+      )
   }
-
+    
 }
 export default App;
